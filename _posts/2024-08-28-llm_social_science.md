@@ -1,6 +1,6 @@
 ---
 title: On LLM Humanities and Social Sciences
-date: YYYY-MM-DD HH:MM:SS +/-TTTT
+date: 2024-08-28
 categories: [LLMs, Humanities]
 ---
 
