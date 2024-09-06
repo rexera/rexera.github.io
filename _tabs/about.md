@@ -6,6 +6,9 @@ order: 1
 
 > 你好！Hello! Bonjour ! Hola!
 
+<img src="https://github.com/user-attachments/assets/5d880ed3-a4aa-45d1-8ede-c057c0c47c47" alt="rex" width="150"/>
+
+
 My name is **MA Yiran (马义然)**, and I go by **Yiran Rex Ma** in papers (well, in the near future). Call me Yiran or Rex per your liking!
 
 I am an undergraduate majoring in English, Linguistics and Language Technologies (Class of 2026) with a minor in Data Science and Big Data Technologies. 
