@@ -15,10 +15,10 @@ I am an undergraduate majoring in English, Linguistics and Language Technologies
 
 My research is around **Large Language Models** (LLMs), (Computational) **Linguistics**, and their intersections: 
 
-- LLMs in Computational Linguistics
-- LLM-based Multi-Agent Systems
-- Human-Computer Interaction in Large Language Models
-- LLM Benchmarking in Language and Linguistics
+- LLMs in **Computational Linguistics**
+- LLM-based **Multi-Agent Systems** (MAS)
+- **Non-Parametric Training** for LLMs
+- LLM **Benchmarking in Language and Linguistics**
 - ...
 
 I am committed to furthering my knowledge in these areas and aspire to engage in interdisciplinary research, breaking down academic barrier.
