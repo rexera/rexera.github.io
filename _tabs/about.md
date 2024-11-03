@@ -6,7 +6,8 @@ order: 1
 
 > 你好！Hello! Bonjour ! Hola!
 
-<img src="https://github.com/user-attachments/assets/5d880ed3-a4aa-45d1-8ede-c057c0c47c47" alt="rex" width="150"/>
+![image](https://github.com/user-attachments/assets/707dbf60-a038-469b-8a4e-deb24f11355a)
+
 
 
 My name is **MA Yiran (马义然)**, and I go by **Yiran Rex Ma** in papers (well, in the near future). Call me Yiran or Rex per your liking!
