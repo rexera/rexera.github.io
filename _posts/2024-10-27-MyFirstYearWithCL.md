@@ -300,7 +300,7 @@ Language expresses thought but isn't thought itself. Ethically speaking, this su
 <img width="769" alt="image" src="https://github.com/user-attachments/assets/133bddcb-9206-4f57-982b-2dfef6722eaf" />
 
 
-Last week, Apple's team published [a paper](http://arxiv.org/abs/2410.05229) arguing that LLMs are just more complex, fine-grained pattern recognition, not human-level reasoning. 
+Last week, Apple's team published [a paper](https://arxiv.org/abs/2410.05229) arguing that LLMs are just more complex, fine-grained pattern recognition, not human-level reasoning. 
 
 > Iman Mirzadeh, Keivan Alizadeh, Hooman Shahrokhi, Oncel Tuzel, Samy Bengio, and Mehrdad Farajtabar. 2024. GSM-Symbolic: Understanding the Limitations of Mathematical Reasoning in Large Language Models. arXiv:2410.05229 [cs].
 
