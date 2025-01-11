@@ -4,7 +4,7 @@ date: 2024-10-27
 categories: [Disciplines]
 ---
 
-## How Did a Rural Child Find Their Way to Linguistics?
+## How Did a Rural Child Find His Way to Linguistics?
 
 My journey diverges from the conventional path.
 
@@ -269,13 +269,13 @@ Therefore, emphasizing the "linguistics" in "computational linguistics" is absol
 
 In contemporary computational linguistics, LLMs are an unavoidable topic.
 
-Currently, those discussing LLMs and linguistics are typically domestic armchair experts who, having benefited from the era's opportunities, left the frontlines without ever writing papers or conducting experiments themselves. They treat journal submissions like social media posts—how can they claim genuine insight into technology and engineering? While eloquent about LLMs' impact on linguistics, they're speechless about linguistics' contributions to LLMs, often making fundamental conceptual errors.
+Currently, those discussing LLMs and linguistics are typically domestic armchair experts who, having benefited from previous era's opportunities, left the frontlines without ever writing papers or conducting experiments themselves. They treat journal submissions like social media posts—how can they claim genuine insight into technology and engineering? While eloquent about LLMs' impact on linguistics, they're speechless about linguistics' contributions to LLMs, often making fundamental conceptual errors.
 
 LLMs' massive parameters, general language capabilities, and reasoning abilities have created opportunities for first-principle methods represented by linguistics and symbolic AI, allowing computational linguistics to lean toward linguistic theory. This also gives computational linguistics potential for broad application like functional grammar, extending to almost every aspect of every discipline involving human participation.
 
 As for the discipline itself, computational linguistics has plenty of significant problems to solve. Alignment and evaluation alone are substantial enough topics for three to five years of graduate research. How can machines understand domain-specific natural language like humans? How can they generate natural, high-quality sentences like humans? What kind of language machines do we actually want? Those that explain complex concepts simply? Those that dissect with surgical precision? Those with humanistic care?
 
-Chomsky wrote a New York Times article in 2023 titled "The False Promise of ChatGPT"—essentially arguing that human thought and language use represent "elegant operation based on minimal information," while LLMs' language generation, marinated in massive corpora, is merely crude imitation, not fundamentally "understanding" language—suggesting LLMs offer no theoretical innovation.
+Chomsky wrote a New York Times article in 2023 titled ["The False Promise of ChatGPT"](https://www.nytimes.com/2023/03/08/opinion/noam-chomsky-chatgpt-ai.html)—essentially arguing that human thought and language use represent "elegant operation based on minimal information," while LLMs' language generation, marinated in massive corpora, is merely crude imitation, not fundamentally "understanding" language—suggesting LLMs offer no theoretical innovation.
 
 But that's precisely the point. LLMs are an NLP engineering achievement, never meant to solve linguistic theoretical problems. It's like criticizing electric vehicles for being less safe than cars, or cars for being less agile than electric vehicles—clearly two products serving different scenarios and preferences.
 
@@ -291,12 +291,20 @@ First, as Professor Mu Li mentioned during his lecture at Shanghai Jiao Tong Uni
 
 Second, we've run out of pre-training corpora. Moreover, AI-generated text is massively contaminating human corpora. Foundation models show little progress beyond increasing efficiency and reducing computational complexity and resource demands; the internet mindset of "stack data, computing power, and parameters to improve performance" no longer works. We're in the "post-training" era—as mentioned above, scaling needs to focus on model deliberation: incentivization, guidance, reinforcement learning, symbolism, self-play...
 
-Third, is language truly thought itself? A Nature paper from MIT says no. Language expresses thought but isn't thought itself. Ethically speaking, this suggests LLMs are merely parroting, not truly thinking. But I find this somewhat conservative—if we philosophically and ethically broaden our definition of "intelligence," LLMs have already achieved basic intelligence and thinking at a results level. Some say LLMs and linguistics will diverge? Not necessarily—it depends on what linguistics we're talking about.
+Third, is language truly thought itself? [A Nature paper from MIT](https://www.nature.com/articles/s41586-024-07522-w) says no. 
+
+> Evelina Fedorenko, Steven T. Piantadosi, and Edward A. F. Gibson. 2024. Language is primarily a tool for communication rather than thought. Nature, 630(8017):575–586.
+
+Language expresses thought but isn't thought itself. Ethically speaking, this suggests LLMs are merely parroting, not truly thinking. But I find this somewhat conservative—if we philosophically and ethically broaden our definition of "intelligence," LLMs have already achieved basic intelligence and thinking at a results level. Some say LLMs and linguistics will diverge? Not necessarily—it depends on what linguistics we're talking about.
 
 <img width="769" alt="image" src="https://github.com/user-attachments/assets/133bddcb-9206-4f57-982b-2dfef6722eaf" />
 
 
-Last week, Apple's team published a paper arguing that LLMs are just more complex, fine-grained pattern recognition, not human-level reasoning. I think this is absolutely correct. But this raises a philosophical question reminiscent of the concept of "atoms"—dividing matter until it's indivisible. If we break down human reasoning into pattern matching, subdividing until we reach indivisible units of reasoning, and perform pattern matching on these finest units until performance only improves with fundamental framework changes, haven't we achieved human reasoning capability at a results level?
+Last week, Apple's team published [a paper](http://arxiv.org/abs/2410.05229) arguing that LLMs are just more complex, fine-grained pattern recognition, not human-level reasoning. 
+
+> Iman Mirzadeh, Keivan Alizadeh, Hooman Shahrokhi, Oncel Tuzel, Samy Bengio, and Mehrdad Farajtabar. 2024. GSM-Symbolic: Understanding the Limitations of Mathematical Reasoning in Large Language Models. arXiv:2410.05229 [cs].
+
+I think this is absolutely correct. But this raises a philosophical question reminiscent of the concept of "atoms"—dividing matter until it's indivisible. If we break down human reasoning into pattern matching, subdividing until we reach indivisible units of reasoning, and perform pattern matching on these finest units until performance only improves with fundamental framework changes, haven't we achieved human reasoning capability at a results level?
 
 <img width="690" alt="image" src="https://github.com/user-attachments/assets/73d12b55-5ea9-46fb-945f-690a40cfd1e6" />
 
