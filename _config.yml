@@ -16,7 +16,7 @@ timezone: Asia/Shanghai
 
 title: Yiran Rex Ma # the main title
 
-tagline: Welcome to my blog! # it will display as the subtitle
+tagline: Artist, Engineer, Human. # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
