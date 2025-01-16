@@ -15,7 +15,9 @@ My name is **MA Yiran (马义然)**, and I go by **Yiran Rex Ma** in papers (wel
 
 I am currently an undergraduate in School of Humanities, BUPT (Beijing University of Posts and Telecommunications), majoring in English, Linguistics and Language Technologies (Class of 2026) with a minor in Data Science and Big Data Technologies. 
 
-As for academic experiences at precent, I am a research intern in Legal AI Group, [THUNLP](https://nlp.csai.tsinghua.edu.cn), supervised by [Yuxiao Ye](https://yeyuxiao.github.io). My work is mainly on multi-agent court scenario simulation, infusion of linguistics and sociology, and evaluating LLMs' proficiency on legalese. 
+As for academic experiences, I graduated with distinction in a BAC-accredited summer program in University of Cambridge on "AI+ Large Language Models & Generative AI" instructed by [Pietro Liò](https://www.cst.cam.ac.uk/people/pl219) in August, 2024.
+
+At precent, I am a research intern in Legal AI Group, [THUNLP](https://nlp.csai.tsinghua.edu.cn), supervised by [Yuxiao Ye](https://yeyuxiao.github.io). My work is mainly on multi-agent court scenario simulation, infusion of linguistics and sociology, and evaluating LLMs' proficiency on legalese. 
 
 ---
 
