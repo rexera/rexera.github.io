@@ -21,18 +21,17 @@ At precent, I am a research intern in Legal AI Group, [THUNLP](https://nlp.csai.
 
 ---
 
-My research concentration is around **Large Language Models** (LLMs), (Computational) **Linguistics**, and their intersections: 
+My current research concentration is **Linguistic Issues around Computation**: 
 
-- LLMs in **Multilinguality, Contrastive Syntax and Pragmatics**, and Language Diversity
-- LLM-based **Multi-Agent Systems** (MAS) and Simulations
-- **Non-Parametric Training** & **Reference-Free Evaluation** for LLMs
-- LLM **Benchmarking in Language and Linguistics**
+- Linguistic Knowledge Representation and Architecture Fusion (Multi-Agent, Non-Parametric Methods, etc.)
+- Paleography and Multilinguality
+- Language Ability Augmentation and Benchmarking
 - ...
 
-I am committed to furthering my knowledge in these areas and aspire to engage in interdisciplinary research, breaking down barriers of subjects.
+I am committed to furthering my knowledge in these areas and aspire to engage in interdisciplinary research, boosting in-depth fusion of language and computation.
 
 ---
 
-...and I’m a language aficionado! American English and Mandarin Chinese are my primary working languages. Born and raised with Sichuan Dialect as my mother tone and Mandarin Chinese my first language, I’ve been learning English since 12, with fluency and academic proficiency. Besides, I’m currently on track for Spanish and French!
+...and I’m a language aficionado! American English and Simplified Chinese are my primary working languages, while I was born and raised with Sichuan Dialect as my mother tone and Mandarin Chinese my first language. Besides, I’m currently on track for Traditional Chinese, Spanish and French!
 
 This is an academic profile/blog, where I update my academic news and whimsical thoughts. Enjoy!
