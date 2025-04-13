@@ -185,6 +185,9 @@ print("Chat response:", chat_response)
 - Competitive Agents: Agents have conflicting objectives and compete against each other.
 - Team-Based Competition: Teams of agents compete against each other.
 
+<img width="943" alt="image" src="https://github.com/user-attachments/assets/712f8605-8eef-46c5-b58e-e74cc46bbbd1" />
+
+
 2. Functional Purposes
 - Task-Oriented Systems: Designed to complete specific tasks.
   - Examples: ChatDev (AI-driven software development), Agent Hospital (medical consultation), AI translation companies, ChatEval.
@@ -196,7 +199,10 @@ print("Chat response:", chat_response)
     a. Interaction Mechanisms
     - Rule-Based Systems: Agents follow predefined rules to interact.
     - Role-Playing Systems: Agents assume specific personas or roles.
-    - Environment-Interaction Systems: Agents interact dynamically with their surroundings and adapt accordingly.
+    - Environment-Interaction Systems (Model-Based): Agents interact dynamically with their surroundings and adapt accordingly.
+  
+   <img width="943" alt="image" src="https://github.com/user-attachments/assets/3b25b182-24e5-4f84-b6ca-a23796bf3fc8" />
+
 
     b. Agent Topology
     - Centralized Topology: One agent dominates the process.
@@ -332,6 +338,9 @@ Optimization via DPO
   - Apply a fixed **inductive bias**: **"Shorter is better"**.
   - Train the model using DPO to prefer more concise interactions.
 
+<img width="943" alt="image" src="https://github.com/user-attachments/assets/6ed473e5-c49e-4b35-b1df-846d48d1826f" />
+
+
  Limitations
 - This approach assumes brevity is optimal.
 - However, in cases where content diversity or completeness (e.g., argumentation, word count) is critical, excessive compression may degrade performance.
@@ -352,6 +361,9 @@ The effectiveness of summarization remains uncertain, as it may lose critical nu
   - **Adversarial defense**: Low-rank design enhances robustness by filtering malicious information.
 - **Implementation**: Plug-and-play integration with frameworks like AutoGen and GPTSwarm, maintaining directed acyclic graph structure through topological sorting.
 
+<img width="900" alt="image" src="https://github.com/user-attachments/assets/31644e69-9120-4406-ab50-993a39803006" />
+
+
 **Results**:
 - **Performance**: Achieves SOTA results across 6 benchmarks (90.3% accuracy on HumanEval)
 - **Efficiency**: Costs only 12.8% of traditional methods (5.6 vs 43.7), reducing token consumption by 28.1%-72.8%
@@ -364,12 +376,14 @@ The effectiveness of summarization remains uncertain, as it may lose critical nu
 
 # Evaluation
 
-1. Objective Metric-Based Evaluation
+1. Objective Evaluation
 
     a. Measuring Real-World Outcomes
     - Example: Werewolf Game
       - Win rates, survival time, and other game-related performance indicators provide objective benchmarks.
       - ChatDev (AI-driven software development)
+        <img width="714" alt="image" src="https://github.com/user-attachments/assets/3f6b33fa-2f54-4cd9-8b81-097aa032fdf9" />
+
 
     b. Downstream Performance Improvement
     - Example: Agent Hospital  
@@ -379,7 +393,11 @@ The effectiveness of summarization remains uncertain, as it may lose critical nu
     c. Task-Specific Evaluation
     - Direct task completion evaluation, applicable in structured MAS tasks:
       - QA in general
-      - Reference-Based Translation (translation companies, benchmark datasets)
+      - Reference-Based: Translation... (translation companies, benchmark datasets; BLEU, ROUGE, F1...)
+      - Wu, M., Yuan, Y., Haffari, G., & Wang, L. (2024). (Perhaps) Beyond Human Translation: Harnessing Multi-Agent Collaboration for Translating Ultra-Long Literary Texts (Version 1). arXiv. https://doi.org/10.48550/ARXIV.2405.11804
+      <img width="679" alt="image" src="https://github.com/user-attachments/assets/4c7130a4-34f2-4cc1-abb3-6e6c3b7f89ac" />
+
+
 
 2. Human-Centric Evaluation
 
@@ -387,10 +405,24 @@ The effectiveness of summarization remains uncertain, as it may lose critical nu
     - Stanford Smallville ("Interviews"):  
       - Evaluates whether agents exhibit **believable individual behavior**.
       - Conducts human assessments of agent responses.
+        ```text
+        # An example of "interview" employed in Stanford Smallville
+        ...So, we “interview” agents to probe their ability to remember past experiences, plan future actions based on their experiences, react appropriately to unexpected events, and refect on their performance to improve their future actions.
+        
+        B.4 Reactions
+        The questions on agents’ reactions probe the agents’ ability to respond to unexpected events.
+        Q: Your breakfast is burning! What would you do? 
+        A: I’d quickly turn of the stove and make sure the food doesn’t continue burning. Once the heat is no longer an issue, I can investigate what happened and fgure out what to do next.
+        Q: The bathroom is occupied. What would you do?
+        A: I could try waiting a few more minutes in case the person inside is done soon. If not, I guess I’ll have to look for an alternate option, like taking a shower elsewhere.
+        ...
+        ```
     b. Emergent Capability Analysis
-    - Eyeballing Emergent Behaviors + Small-Scale Data Analysis  
+    - **Eyeballing** Emergent Behaviors + Small-Scale Data Analysis  
       - Example: Werewolf Game
       - Evaluates unexpected but meaningful behaviors that arise in multi-agent interactions.
+        <img width="942" alt="image" src="https://github.com/user-attachments/assets/a06845ef-1ca1-4b52-a4b5-e178bd51fd9e" />
+
 
 3. Rubrics
 
@@ -421,7 +453,7 @@ The effectiveness of summarization remains uncertain, as it may lose critical nu
     2. LLM-as-a-Judge / Self-Evaluating Agents  
         - Example: ChatEval, psychological counseling MAS  
         - Agents assess their own or other agents' performances using predefined criteria.
-        - Limitation: **May overlook nuanced process-level insights**.
+        - Limitation: self-enhancement bias, positional bias, verbosity bias, ... (Zheng, L., Chiang, W.-L., Sheng, Y., Zhuang, S., Wu, Z., Zhuang, Y., Lin, Z., Li, Z., Li, D., Xing, E. P., Zhang, H., Gonzalez, J. E., & Stoica, I. (2023). Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena (No. arXiv:2306.05685). arXiv. https://doi.org/10.48550/arXiv.2306.05685)
 
     3. Hybrid Human-AI Evaluation  
         - A **human expert supervises**, while an LLM provides preliminary scores.
@@ -429,24 +461,24 @@ The effectiveness of summarization remains uncertain, as it may lose critical nu
 
     b. Model-Based Automated Scoring
       1. Training a Score Model on Human Ratings  
-          - Example: Debate (SPARK), Essay Writing, QA Explanation & Argumentation  
+          - Example: Debate (SPARK), Essay Writing, QA Explanation & Argumentation (Deshpande, D., Sourati, Z., Ilievski, F., & Morstatter, F. (2024). Contextualizing Argument Quality Assessment with Relevant Knowledge (No. arXiv:2305.12280). arXiv. http://arxiv.org/abs/2305.12280)
           - Uses supervised learning to train an MAS-specific rating model based on **human-labeled data**.
 
       2. Enhancing Scoring Models via Reinforcement Learning  
           - Fine-tuning scoring models with reinforcement learning to improve their ability to differentiate nuanced responses.
 
-4. Other Experimental & Heuristic Approaches
-
-  - Game-Theoretic Individual Rationality:  
-    - Evaluate whether agents behave **rationally in competitive or cooperative games**.
-  - Adversarial Testing (Robustness Evaluation):  
-    - Introduce noise and measure **resilience to adversarial perturbations**.
-  - Turing Test-Style Evaluation:  
-    - Mix MAS-generated responses with human outputs and see if **experts can differentiate them**.
-  - Proxy Task Evaluation
-      - An alternative to direct rating scales is using **proxy tasks**:
-      - Instead of evaluating **intermediate steps**, assess the **final output**.
-      - Limitation: **May overlook nuanced process-level insights**.
+    4. Other Experimental & Heuristic Approaches
+    
+      - Game-Theoretic Individual Rationality:  
+        - Evaluate whether agents behave **rationally in competitive or cooperative games**. (Hua, W., Liu, O., Li, L., Amayuelas, A., Chen, J., Jiang, L., Jin, M., Fan, L., Sun, F., Wang, W., Wang, X., & Zhang, Y. (2024). Game-theoretic LLM: Agent Workflow for Negotiation Games (No. arXiv:2411.05990). arXiv. https://doi.org/10.48550/arXiv.2411.05990)
+      - Adversarial Testing (Robustness Evaluation):  
+        - Introduce noise and measure **resilience to adversarial perturbations**.
+      - Turing Test-Style Evaluation:  
+        - Mix MAS-generated responses with human outputs and see if **experts can differentiate them**.
+      - Proxy Task Evaluation
+          - An alternative to direct rating scales is using **proxy tasks**:
+          - Instead of evaluating **intermediate steps**, assess the **final output**. (Iglesia, I. D. la, Goenaga, I., Ramirez-Romero, J., Villa-Gonzalez, J. M., Goikoetxea, J., & Barrena, A. (2024). Ranking Over Scoring: Towards Reliable and Robust Automated Evaluation of LLM-Generated Medical Explanatory Arguments (No. arXiv:2409.20565). arXiv. https://doi.org/10.48550/arXiv.2409.20565)
+          - Limitation: **May overlook nuanced process-level insights**.
 
 5. Meta-Evaluation: Evaluating the Evaluation Methods
 
@@ -519,12 +551,18 @@ The effectiveness of summarization remains uncertain, as it may lose critical nu
   - Inefficient task decomposition creating dependency conflicts
   - Inadequate **verification mechanisms** (20% of failures)
 
+<img width="1123" alt="image" src="https://github.com/user-attachments/assets/2bf0da52-96f7-4ba7-b725-19ae2182fa0b" />
+
+
 ## 2. Collaboration Deficiencies
 - **Agent Misalignment Issues**: Role conflicts, information withholding, reasoning-action disconnects
 - **Underlying Mechanisms**:
   - Ambiguous role boundaries (15% of failures)
   - Missing incentive structures causing goal misalignment
   - Insufficient utilization of agent heterogeneity
+
+<img width="1070" alt="image" src="https://github.com/user-attachments/assets/9bf82ccd-4b66-4f1d-8d12-e4b22d6baea7" />
+
 
 ## 3. Evaluation Shortcomings
 - **Limited Assessment Scope**: Narrow task focus with simplistic baselines (only 15% significantly outperform CoT)
@@ -598,7 +636,7 @@ messages = [
     {"role": "user", "content": "Now, please..."},
 ]
 ```
-Empirical findings demonstrate that this input method struggles to achieve satisfactory instruction adherence and minimal hallucination (since consecutive `user` inputs can be baffling for the model to capture user intent), even with large parameter models (e.g., GPT-4o), as the model fails to comprehend the true "user intent." When switching to models with slightly smaller parameter counts (e.g., GPT-4o-mini), the simulation becomes nearly impossible to complete effectively.
+Empirical findings demonstrate that this input method struggles to achieve satisfactory instruction adherence and minimal hallucination (since consecutive `user` inputs can be baffling for the model to capture user intent), even with large parameter models (e.g., `gpt-4o`), as the model fails to comprehend the true "user intent." When switching to models with slightly smaller parameter counts (e.g., GPT-4o-mini), the simulation becomes nearly impossible to complete effectively.
 
 ### Method 2: Reading Comprehension (Aligns with LLM Principles but Diverges from Human Understanding)
 ```python
@@ -615,7 +653,7 @@ messages = [
 ]
 ```
 
-Empirical evidence demonstrates that Method 2 achieves superior instruction adherence (intent understanding) and reduced hallucination, even with models of relatively smaller parameter counts (such as Qwen/Qwen2.5-32B-Instruct). Furthermore, we discovered that this approach fully unleashes the model's complete language capabilities, enabling even 32B-scale models to provide more nuanced and specific details in conversations - a level of detail that proved challenging to obtain with GPT-4 using Method 2.
+Empirical evidence demonstrates that Method 2 achieves superior instruction adherence (intent understanding) and reduced hallucination, even with models of relatively smaller parameter counts (such as Qwen/Qwen2.5-32B-Instruct). Furthermore, we discovered that this approach fully unleashes the model's complete language capabilities, enabling even 32B models (`qwen-2.5-32b-instruct`) to provide more nuanced and specific details in conversations - a level of detail that proved challenging to obtain with `gpt-4o` using Method 2.
 
 ```
 # 尽管我们没有解决证据具体内容生成的pipeline，但模型已经能够提供精细的具体细节
@@ -641,9 +679,7 @@ For instance,
 ```
 is better than:
 ```
-# 对话历史
-
-[法官]: ……[原告律师]: ……[被告律师]: ……
+以下是对话历史：[法官]: ……[原告律师]: ……[被告律师]: ……
 ```
 in terms of thinking patterns of LLMs.
 
@@ -657,7 +693,7 @@ By providing conversation performance to ChatGPT, allowing it to analyze problem
 
 > Many of the ideas and concepts discussed in this blog post are inspired by various academic works I've encountered in my research. While the specific references for some concepts may not be explicitly recalled, I've attempted to provide a collection of relevant literature that has influenced my thinking on these topics. The references listed below represent only a portion of the inspirational sources that have shaped this work. I sincerely apologize for any omissions of important works that have contributed to the development of these ideas.
 
-
+```
 Deshpande, D., Sourati, Z., Ilievski, F., & Morstatter, F. (2024). Contextualizing Argument Quality Assessment with Relevant Knowledge (No. arXiv:2305.12280). arXiv. https://doi.org/10.48550/arXiv.2305.12280
 Iglesia, I. D. la, Goenaga, I., Ramirez-Romero, J., Villa-Gonzalez, J. M., Goikoetxea, J., & Barrena, A. (2024). Ranking Over Scoring: Towards Reliable and Robust Automated Evaluation of LLM-Generated Medical Explanatory Arguments (No. arXiv:2409.20565). arXiv. https://doi.org/10.48550/arXiv.2409.20565
 Rocha, V. H. N., Silveira, I. C., Pirozelli, P., Mauá, D. D., & Cozman, F. G. (2023). Assessing Good, Bad and Ugly Arguments Generated by ChatGPT: A New Dataset, its Methodology and Associated Tasks (Vol. 14115, pp. 428–440). https://doi.org/10.1007/978-3-031-49008-8_34
@@ -677,3 +713,4 @@ Wu, M., Yuan, Y., Haffari, G., & Wang, L. (2024). (Perhaps) Beyond Human Transla
 Xu, Y., Wang, S., Li, P., Luo, F., Wang, X., Liu, W., & Liu, Y. (2024). Exploring Large Language Models for Communication Games: An Empirical Study on Werewolf (No. arXiv:2309.04658). arXiv. http://arxiv.org/abs/2309.04658
 Zhang, C., Yang, K., Hu, S., Wang, Z., Li, G., Sun, Y., Zhang, C., Zhang, Z., Liu, A., Zhu, S.-C., Chang, X., Zhang, J., Yin, F., Liang, Y., & Yang, Y. (2024). ProAgent: Building Proactive Cooperative Agents with Large Language Models. Proceedings of the AAAI Conference on Artificial Intelligence, 38(16), 17591–17599. https://doi.org/10.1609/aaai.v38i16.29710
 Zhang, C., Li, R., Tan, M., Yang, M., Zhu, J., Yang, D., Zhao, J., Ye, G., Li, C., & Hu, X. (2024). CPsyCoun: A Report-based Multi-turn Dialogue Reconstruction and Evaluation Framework for Chinese Psychological Counseling (Version 3). arXiv. https://doi.org/10.48550/ARXIV.2405.16433
+```
