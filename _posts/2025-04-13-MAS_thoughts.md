@@ -406,7 +406,8 @@ The effectiveness of summarization remains uncertain, as it may lose critical nu
     - Stanford Smallville ("Interviews"):  
       - Evaluates whether agents exhibit **believable individual behavior**.
       - Conducts human assessments of agent responses.
-        ```text
+      
+```text
         # An example of "interview" employed in Stanford Smallville
         ...So, we “interview” agents to probe their ability to remember past experiences, plan future actions based on their experiences, react appropriately to unexpected events, and refect on their performance to improve their future actions.
         
@@ -417,7 +418,8 @@ The effectiveness of summarization remains uncertain, as it may lose critical nu
         Q: The bathroom is occupied. What would you do?
         A: I could try waiting a few more minutes in case the person inside is done soon. If not, I guess I’ll have to look for an alternate option, like taking a shower elsewhere.
         ...
-        ```
+```
+
 #### b. Emergent Capability Analysis
     - **Eyeballing** Emergent Behaviors + Small-Scale Data Analysis  
       - Example: Werewolf Game
@@ -523,6 +525,8 @@ The effectiveness of summarization remains uncertain, as it may lose critical nu
     - Reliability? self-organizing behaviors? 
     - **Underlying mechanisms among agents that trigger generalization capabilities**.
 
+> Potential Research Topic 3: Why and When is MAS superior to signle agent?
+
 ## Challenges in MAS Evaluation
 
 1. **Lack of Standardized Evaluation**
@@ -537,6 +541,8 @@ The effectiveness of summarization remains uncertain, as it may lose critical nu
 3. Static Benchmarks Become Obsolete
     - Traditional evaluation benchmarks may become outdated and misaligned with real-world requirements, leading to misleading optimization (e.g., data leakage, overfitting).
     - A **dynamic evaluation system** is necessary to continuously update test scenarios in response to technological and environmental changes.
+  
+> Potential Research Topic 4: An all-round, dynamic, unified evaluation benchmark for ALL MAS?
 
 ## If MAS is the Answer, What is the Question?
 
@@ -606,7 +612,7 @@ Zhang, H., Cui, Z., Wang, X., Zhang, Q., Wang, Z., Wu, D., & Hu, S. (2025). If M
 
 ## Thoughts in MAS Development (until now; personal)
 
-> Avoid anthropocentrism when designing models or (especially) dialogue processes. Refrain from blindly applying human understanding patterns to these systems. Instead, approach design decisions from the foundational mechanisms and principles of LLMs themselves.
+> Avoid **anthropocentrism** when designing models or **(especially) dialogue processes**. Refrain from blindly applying human understanding patterns to these systems. Instead, approach design decisions from the foundational mechanisms and principles of LLMs themselves.
 
 ### On Conversation History
 
