@@ -381,31 +381,29 @@ The effectiveness of summarization remains uncertain, as it may lose critical nu
 ### 1. Objective Evaluation
 
 #### a. Measuring Real-World Outcomes
-    - Example: Werewolf Game
-      - Win rates, survival time, and other game-related performance indicators provide objective benchmarks.
-      - ChatDev (AI-driven software development)
-        <img width="714" alt="image" src="https://github.com/user-attachments/assets/3f6b33fa-2f54-4cd9-8b81-097aa032fdf9" />
-
+  - Example: Werewolf Game
+    - Win rates, survival time, and other game-related performance indicators provide objective benchmarks.
+    - ChatDev (AI-driven software development)
+      <img width="714" alt="image" src="https://github.com/user-attachments/assets/3f6b33fa-2f54-4cd9-8b81-097aa032fdf9" />
 
 #### b. Downstream Performance Improvement
-    - Example: Agent Hospital  
-      - MAS generates enhanced data, which is used to **train a model**.
-      - The model's performance on a downstream real-world task is used as the evaluation metric.
+  - Example: Agent Hospital  
+    - MAS generates enhanced data, which is used to **train a model**.
+    - The model's performance on a downstream real-world task is used as the evaluation metric.
 
 #### c. Task-Specific Evaluation
-    - Direct task completion evaluation, applicable in structured MAS tasks:
-      - QA in general
-      - Reference-Based: Translation... (translation companies, benchmark datasets; BLEU, ROUGE, F1...)
-      - Wu, M., Yuan, Y., Haffari, G., & Wang, L. (2024). (Perhaps) Beyond Human Translation: Harnessing Multi-Agent Collaboration for Translating Ultra-Long Literary Texts (Version 1). arXiv. https://doi.org/10.48550/ARXIV.2405.11804
-      <img width="679" alt="image" src="https://github.com/user-attachments/assets/4c7130a4-34f2-4cc1-abb3-6e6c3b7f89ac" />
-
+  - Direct task completion evaluation, applicable in structured MAS tasks:
+    - QA in general
+    - Reference-Based: Translation... (translation companies, benchmark datasets; BLEU, ROUGE, F1...)
+    - Wu, M., Yuan, Y., Haffari, G., & Wang, L. (2024). (Perhaps) Beyond Human Translation: Harnessing Multi-Agent Collaboration for Translating Ultra-Long Literary Texts (Version 1). arXiv. https://doi.org/10.48550/ARXIV.2405.11804
+    <img width="679" alt="image" src="https://github.com/user-attachments/assets/4c7130a4-34f2-4cc1-abb3-6e6c3b7f89ac" />
 
 ### 2. Human-Centric Evaluation
 
 #### a. Believability Assessment
-    - Stanford Smallville ("Interviews"):  
-      - Evaluates whether agents exhibit **believable individual behavior**.
-      - Conducts human assessments of agent responses.
+  - Stanford Smallville ("Interviews"):  
+    - Evaluates whether agents exhibit **believable individual behavior**.
+    - Conducts human assessments of agent responses.
       
 ```text
         # An example of "interview" employed in Stanford Smallville
@@ -421,83 +419,82 @@ The effectiveness of summarization remains uncertain, as it may lose critical nu
 ```
 
 #### b. Emergent Capability Analysis
-    - **Eyeballing** Emergent Behaviors + Small-Scale Data Analysis  
-      - Example: Werewolf Game
-      - Evaluates unexpected but meaningful behaviors that arise in multi-agent interactions.
-        <img width="942" alt="image" src="https://github.com/user-attachments/assets/a06845ef-1ca1-4b52-a4b5-e178bd51fd9e" />
-
+  - **Eyeballing** Emergent Behaviors + Small-Scale Data Analysis  
+    - Example: Werewolf Game
+    - Evaluates unexpected but meaningful behaviors that arise in multi-agent interactions.
+      <img width="942" alt="image" src="https://github.com/user-attachments/assets/a06845ef-1ca1-4b52-a4b5-e178bd51fd9e" />
 
 ### 3. Rubrics
 
-    *Example: Legal Reasoning Rubric for Multi-Agent Legal Analysis System*
+  *Example: Legal Reasoning Rubric for Multi-Agent Legal Analysis System*
 
-    | Dimension | Description | Scoring Criteria (1-5) |
-    |-----------|-------------|------------------------|
-    | Legal Accuracy | Correctness of legal principles and precedents cited | 1: Major errors in law<br>3: Minor inaccuracies<br>5: Completely accurate legal analysis |
-    | Argument Quality | Logical structure and persuasiveness of legal arguments | 1: Incoherent reasoning<br>3: Basic logical structure<br>5: Compelling, well-structured arguments |
-    | Counter-Argument Anticipation | Ability to identify and address opposing viewpoints | 1: No counter-arguments considered<br>3: Basic counter-arguments addressed<br>5: Comprehensive treatment of opposing positions |
-    | Evidence Integration | Effective use of case facts and evidence | 1: Ignores key evidence<br>3: Incorporates main evidence<br>5: Sophisticated integration of all relevant evidence |
-    | Practical Applicability | Usefulness of analysis for real-world legal decision-making | 1: Purely theoretical<br>3: Moderately practical<br>5: Directly applicable to case resolution |
+  | Dimension | Description | Scoring Criteria (1-5) |
+  |-----------|-------------|------------------------|
+  | Legal Accuracy | Correctness of legal principles and precedents cited | 1: Major errors in law<br>3: Minor inaccuracies<br>5: Completely accurate legal analysis |
+  | Argument Quality | Logical structure and persuasiveness of legal arguments | 1: Incoherent reasoning<br>3: Basic logical structure<br>5: Compelling, well-structured arguments |
+  | Counter-Argument Anticipation | Ability to identify and address opposing viewpoints | 1: No counter-arguments considered<br>3: Basic counter-arguments addressed<br>5: Comprehensive treatment of opposing positions |
+  | Evidence Integration | Effective use of case facts and evidence | 1: Ignores key evidence<br>3: Incorporates main evidence<br>5: Sophisticated integration of all relevant evidence |
+  | Practical Applicability | Usefulness of analysis for real-world legal decision-making | 1: Purely theoretical<br>3: Moderately practical<br>5: Directly applicable to case resolution |
 
 
 
-    Rubrics are useful when:
+  Rubrics are useful when:
 
-    - Evaluation is subjective (e.g., psychological counseling, debate reasoning, essay quality).
-    - Process-level evaluation is needed, rather than just final task performance.
-    - No clear ground truth/reference exists, requiring human-like judgment.
+  - Evaluation is subjective (e.g., psychological counseling, debate reasoning, essay quality).
+  - Process-level evaluation is needed, rather than just final task performance.
+  - No clear ground truth/reference exists, requiring human-like judgment.
 
 #### a. Human-Centric Evaluation
 
-    1. Expert Human Ratings ("GOAT" Standard)  
-        - Most reliable but expensive and time-consuming.
-        - Used in high-stakes domains such as **psychotherapy assessments, legal reasoning, or AI ethics review**.
+  1. Expert Human Ratings ("GOAT" Standard)  
+      - Most reliable but expensive and time-consuming.
+      - Used in high-stakes domains such as **psychotherapy assessments, legal reasoning, or AI ethics review**.
 
-    2. LLM-as-a-Judge / Self-Evaluating Agents  
-        - Example: ChatEval, psychological counseling MAS  
-        - Agents assess their own or other agents' performances using predefined criteria.
-        - Limitation: self-enhancement bias, positional bias, verbosity bias, ... (Zheng, L., Chiang, W.-L., Sheng, Y., Zhuang, S., Wu, Z., Zhuang, Y., Lin, Z., Li, Z., Li, D., Xing, E. P., Zhang, H., Gonzalez, J. E., & Stoica, I. (2023). Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena (No. arXiv:2306.05685). arXiv. https://doi.org/10.48550/arXiv.2306.05685)
+  2. LLM-as-a-Judge / Self-Evaluating Agents  
+      - Example: ChatEval, psychological counseling MAS  
+      - Agents assess their own or other agents' performances using predefined criteria.
+      - Limitation: self-enhancement bias, positional bias, verbosity bias, ... (Zheng, L., Chiang, W.-L., Sheng, Y., Zhuang, S., Wu, Z., Zhuang, Y., Lin, Z., Li, Z., Li, D., Xing, E. P., Zhang, H., Gonzalez, J. E., & Stoica, I. (2023). Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena (No. arXiv:2306.05685). arXiv. https://doi.org/10.48550/arXiv.2306.05685)
 
-    3. Hybrid Human-AI Evaluation  
-        - A **human expert supervises**, while an LLM provides preliminary scores.
-        - A dynamic, human-in-the-loop method.
+  3. Hybrid Human-AI Evaluation  
+      - A **human expert supervises**, while an LLM provides preliminary scores.
+      - A dynamic, human-in-the-loop method.
 
 #### b. Model-Based Automated Scoring
-      1. Training a Score Model on Human Ratings  
-          - Example: Debate (SPARK), Essay Writing, QA Explanation & Argumentation (Deshpande, D., Sourati, Z., Ilievski, F., & Morstatter, F. (2024). Contextualizing Argument Quality Assessment with Relevant Knowledge (No. arXiv:2305.12280). arXiv. http://arxiv.org/abs/2305.12280)
-          - Uses supervised learning to train an MAS-specific rating model based on **human-labeled data**.
+1. Training a Score Model on Human Ratings  
+      - Example: Debate (SPARK), Essay Writing, QA Explanation & Argumentation (Deshpande, D., Sourati, Z., Ilievski, F., & Morstatter, F. (2024). Contextualizing Argument Quality Assessment with Relevant Knowledge (No. arXiv:2305.12280). arXiv. http://arxiv.org/abs/2305.12280)
+      - Uses supervised learning to train an MAS-specific rating model based on **human-labeled data**.
 
-      2. Enhancing Scoring Models via Reinforcement Learning  
-          - Fine-tuning scoring models with reinforcement learning to improve their ability to differentiate nuanced responses.
+2. Enhancing Scoring Models via Reinforcement Learning  
+      - Fine-tuning scoring models with reinforcement learning to improve their ability to differentiate nuanced responses.
 
-    3. Other Experimental & Heuristic Approaches
-    
-      - Game-Theoretic Individual Rationality:  
-        - Evaluate whether agents behave **rationally in competitive or cooperative games**. (Hua, W., Liu, O., Li, L., Amayuelas, A., Chen, J., Jiang, L., Jin, M., Fan, L., Sun, F., Wang, W., Wang, X., & Zhang, Y. (2024). Game-theoretic LLM: Agent Workflow for Negotiation Games (No. arXiv:2411.05990). arXiv. https://doi.org/10.48550/arXiv.2411.05990)
-      - Adversarial Testing (Robustness Evaluation):  
-        - Introduce noise and measure **resilience to adversarial perturbations**.
-      - Turing Test-Style Evaluation:  
-        - Mix MAS-generated responses with human outputs and see if **experts can differentiate them**.
-      - Proxy Task Evaluation
-          - An alternative to direct rating scales is using **proxy tasks**:
-          - Instead of evaluating **intermediate steps**, assess the **final output**. (Iglesia, I. D. la, Goenaga, I., Ramirez-Romero, J., Villa-Gonzalez, J. M., Goikoetxea, J., & Barrena, A. (2024). Ranking Over Scoring: Towards Reliable and Robust Automated Evaluation of LLM-Generated Medical Explanatory Arguments (No. arXiv:2409.20565). arXiv. https://doi.org/10.48550/arXiv.2409.20565)
-          - Limitation: **May overlook nuanced process-level insights**.
+3. Other Experimental & Heuristic Approaches
+
+  - Game-Theoretic Individual Rationality:  
+    - Evaluate whether agents behave **rationally in competitive or cooperative games**. (Hua, W., Liu, O., Li, L., Amayuelas, A., Chen, J., Jiang, L., Jin, M., Fan, L., Sun, F., Wang, W., Wang, X., & Zhang, Y. (2024). Game-theoretic LLM: Agent Workflow for Negotiation Games (No. arXiv:2411.05990). arXiv. https://doi.org/10.48550/arXiv.2411.05990)
+  - Adversarial Testing (Robustness Evaluation):  
+    - Introduce noise and measure **resilience to adversarial perturbations**.
+  - Turing Test-Style Evaluation:  
+    - Mix MAS-generated responses with human outputs and see if **experts can differentiate them**.
+  - Proxy Task Evaluation
+      - An alternative to direct rating scales is using **proxy tasks**:
+      - Instead of evaluating **intermediate steps**, assess the **final output**. (Iglesia, I. D. la, Goenaga, I., Ramirez-Romero, J., Villa-Gonzalez, J. M., Goikoetxea, J., & Barrena, A. (2024). Ranking Over Scoring: Towards Reliable and Robust Automated Evaluation of LLM-Generated Medical Explanatory Arguments (No. arXiv:2409.20565). arXiv. https://doi.org/10.48550/arXiv.2409.20565)
+      - Limitation: **May overlook nuanced process-level insights**.
 
 ### 4. Meta-Evaluation: Evaluating the Evaluation Methods
 
-    Since MAS evaluation methods vary widely, ensuring their reliability and alignment with human intuition is crucial. Meta-evaluation assesses the effectiveness of evaluation strategies through:
+  Since MAS evaluation methods vary widely, ensuring their reliability and alignment with human intuition is crucial. Meta-evaluation assesses the effectiveness of evaluation strategies through:
 
-    a. Human Alignment
-    - Ensures that automated evaluation results align with human judgment.
-    - Key question: Do automated scores reflect human intuition?
+  a. Human Alignment
+  - Ensures that automated evaluation results align with human judgment.
+  - Key question: Do automated scores reflect human intuition?
 
-    b. Model Selection Alignment
-    - Determines whether evaluation methods effectively **differentiate good models from bad ones**.
-    - Key question: Does the evaluation process consistently help choose the best-performing models?
+  b. Model Selection Alignment
+  - Determines whether evaluation methods effectively **differentiate good models from bad ones**.
+  - Key question: Does the evaluation process consistently help choose the best-performing models?
 
-    c. Evaluating Automated Scoring Systems
-    - Examining whether an LLM-based scoring model provides consistent and meaningful feedback.
-    - Requires human expert validation and, in some cases, **benchmarking against real-world outcomes**.
+  c. Evaluating Automated Scoring Systems
+  - Examining whether an LLM-based scoring model provides consistent and meaningful feedback.
+  - Requires human expert validation and, in some cases, **benchmarking against real-world outcomes**.
 
 
 ## Limitations of current LLM-based MAS
