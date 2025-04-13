@@ -6,13 +6,13 @@ categories: [Technical, MAS]
 
 > By no means is the notion of "Agent", which has long been discussed in AI research since early works like *Society of Minds* by Marvin Minsky, novel or peculiar to present days, let alone when extended to multi-agent systems (MAS). Its implementation based on LLMs, however, constitutes the genuine issue posed ahead of researchers nowadays.
 
-# Principles
+## Principles
 
 A commonly neglected factor (well, at least for me in the first place) when developing a LLM-based MAS is the starking fact that LLMs are **NOT** generically built (or in this case, trained) for multi-agent communications. So in this section, we start with a quick overview of general principles of LLM pre-training (in broad sense) before diving into the principles of MAS.
 
-## LLM Pre-training Principles
+### LLM Pre-training Principles
 
-### Autoregressive Language Modeling (Pre-training)
+#### Autoregressive Language Modeling (Pre-training)
 LLMs are fundamentally trained on **autoregressive** language modeling objectives, where the model learns to predict the next token given all previous tokens in a sequence. This approach enables the model to capture complex linguistic patterns, contextual relationships, and semantic structures within text.
 
 
@@ -38,13 +38,13 @@ The organization is a
 ```
 which is obviously *making sense autoregressively* but gibberish.
 
-### Instruction Tuning
+#### Instruction Tuning
 To this end, after pre-training, models are supposed to undergo instruction tuning to align with user intent:
 - Models are fine-tuned on datasets containing instruction-response pairs
 - This process enhances the model's ability to interpret and follow specific directives
 - The instruction format creates a structured interface for human-AI interaction
 
-### Instruction Tuning Example
+#### Instruction Tuning Example
 
 Instruction tuning involves training models on specific instruction-response pairs to improve their ability to follow directions. Here's a concrete example:
 
@@ -67,7 +67,7 @@ This example demonstrates how instruction tuning helps models generate responses
 - Structured in a helpful, informative manner
 
 
-### Reinforcement Learning from Human Feedback (RLHF)
+#### Reinforcement Learning from Human Feedback (RLHF)
 RLHF further refines model outputs through a multi-stage process:
 - Human evaluators rank model responses based on quality, helpfulness, and safety
 - A reward model is trained on these human preferences
@@ -125,7 +125,7 @@ These training paradigms create foundation models that, while powerful for indiv
 
 > **Potential Research Topic 1:** Foundation Models for Multi-Agent Settings, i.e., how to train a model that is inherently designed for multi-agent collaboration? What kind of data do we need? Training methods? 
 
-## Response Generation
+### Response Generation
 
 The implementation of LLM-based multi-agent systems primarily involves **response generation** and **communication**. 
 
@@ -178,7 +178,7 @@ chat_response = client.chat.completions.create(
 print("Chat response:", chat_response)
 ```
 
-# Categories of MAS
+## Categories of MAS
 
 1. Interaction Models
 - Cooperative Agents: Agents work together towards a common goal.
@@ -218,7 +218,7 @@ This classification provides a structured understanding of how LLM-based multi-a
 > Chen, S., Liu, Y., Han, W., Zhang, W., & Liu, T. (2025). A Survey on LLM-based Multi-Agent System: Recent Advances and New Frontiers in Application (No. arXiv:2412.17481). arXiv. https://doi.org/10.48550/arXiv.2412.17481
 
 
-# Common Frameworks for MAS
+## Common Frameworks for MAS
 
 - AutoGen (Microsoft)
 - LangGraph (LangChain)
@@ -228,17 +228,17 @@ This classification provides a structured understanding of how LLM-based multi-a
 - AgentScope (Ali)
 - from scratch: practicable, with harder abstract class and attribute management
 
-# Efficient MAS
+## Efficient MAS
 
 Optimizing MAS performance involves reducing computational overhead by 1) **minimizing prompt tokens** and 2) **inter-agent communication costs**.
 
-## 1. Prompt Compression (Caching)
+### 1. Prompt Compression (Caching)
 
 Just as at the model level there's KV Cache mechanism for repetitive MatMuls, at the response generation level, there's also caching mechanisms for repetitive response generations. Without caching, response generation, be it individually or in MAS, could skyrocket cost-wise, **especially for context- or refinement-intensive tasks like dialogue simulations**.
 
 Here, we list four types of caching mechanisms that we (at least for me) commonly used:
 
-### Caching in `openai` SDK
+#### Caching in `openai` SDK
 
 OpenAI implements prompt caching by routing API requests to servers that recently processed the same prompt. When a cached prompt is reused, it's processed faster and more efficiently than computing the response from scratch.
 
@@ -256,7 +256,7 @@ Manual cache clearing is not currently available. Prompts that have not been enc
 
 You can find more details in [OpenAI's official documentation](https://platform.openai.com/docs/guides/caching).
 
-### Caching in DeepSeek
+#### Caching in DeepSeek
 
 ```python
 client = OpenAI(api_key="key", base_url="https://api.deepseek.com")
@@ -273,7 +273,7 @@ The cache is automatically cleared after periods of inactivity, typically rangin
 
 Reference: [DeepSeek Caching](https://api-docs.deepseek.com/guides/kv_cache)
 
-### Caching in `autogen`
+#### Caching in `autogen`
 
 AutoGen implements a coarse-grained caching mechanism called "LLM Caching" that stores and reuses API requests. This caching is particularly useful when **repeating or continuing experiments**, as it helps with reproducibility and cost savings by avoiding redundant API calls.
 
@@ -282,7 +282,7 @@ By default, AutoGen uses **`DiskCache`** which stores cached responses in a `.ca
 Reference: [AutoGen Caching](https://microsoft.github.io/autogen/0.2/docs/topics/llm-caching)
 
 
-### Caching in vLLM
+#### Caching in vLLM
 
 vLLM boasts its utilization of PagedAttention, where **Automatic Prefix Caching (APC)** caches the KV cache of existing queries, so that a new query can directly reuse the KV cache if it shares the same prefix with one of the existing queries, allowing the new query to skip the computation of the shared part.
 
@@ -315,7 +315,7 @@ INFO 03-04 16:31:34 metrics.py:471] Prefix cache hit rate: GPU: 97.70%, CPU: 0.0
 
 You can find more details in [vLLM's official documentation](https://docs.vllm.ai/en/stable/features/automatic_prefix_caching.html).
 
-## 2. Agent-Driven Prompt Optimization
+### 2. Agent-Driven Prompt Optimization
 
 Instead of relying solely on Test-Driven Development (TDD) for manual prompt tuning, agent can **automate the prompt compression process**. This is especially beneficial when:
 - Role interactions and workflows are complex.
@@ -326,9 +326,9 @@ This concept suggests that **models might better optimize prompts for models**, 
 
 > **Potential Research Topic 2:** Agent-Driven Prompt Optimization, i.e., how to automate and accelerate the prompt compression process?
 
-## 3. Dialogue Compression
+### 3. Dialogue Compression
 
-Optimization via DPO
+**a. Optimization via DPO**
 
 > Chen, W., Yuan, J., Qian, C., Yang, C., Liu, Z., & Sun, M. (2025). Optima: Optimizing Effectiveness and Efficiency for LLM-Based Multi-Agent System (No. arXiv:2410.08115). arXiv. https://doi.org/10.48550/arXiv.2410.08115
 
@@ -345,13 +345,15 @@ Optimization via DPO
 - This approach assumes brevity is optimal.
 - However, in cases where content diversity or completeness (e.g., argumentation, word count) is critical, excessive compression may degrade performance.
 
+**b. ...some of my thoughts**
+
 History Management Strategies
 - Sliding Window Context: Only the most recent interactions are passed as context.
 - Summarization for Older Exchanges: Past dialogues beyond the window are summarized before inclusion.
 
 The effectiveness of summarization remains uncertain, as it may lose critical nuances needed for MAS reasoning.
 
-## 4. Graph Abstraction & Pruning
+### 4. Graph Abstraction & Pruning
 
 > Zhang, G., Yue, Y., Li, Z., Yun, S., Wan, G., Wang, K., Cheng, D., Yu, J. X., & Chen, T. (2024). Cut the Crap: An Economical Communication Pipeline for LLM-based Multi-Agent Systems (No. arXiv:2410.02506). arXiv. https://doi.org/10.48550/arXiv.2410.02506 (ICLR 2025 Poster)
 
@@ -374,23 +376,23 @@ The effectiveness of summarization remains uncertain, as it may lose critical nu
 - **Cold-start cost**: Needs K' rounds of dialogue to train graph masks
 - **Scenario constraints**: May not suit scenarios requiring complete information sharing
 
-# Evaluation
+## Evaluation
 
-1. Objective Evaluation
+### 1. Objective Evaluation
 
-    a. Measuring Real-World Outcomes
+#### a. Measuring Real-World Outcomes
     - Example: Werewolf Game
       - Win rates, survival time, and other game-related performance indicators provide objective benchmarks.
       - ChatDev (AI-driven software development)
         <img width="714" alt="image" src="https://github.com/user-attachments/assets/3f6b33fa-2f54-4cd9-8b81-097aa032fdf9" />
 
 
-    b. Downstream Performance Improvement
+#### b. Downstream Performance Improvement
     - Example: Agent Hospital  
       - MAS generates enhanced data, which is used to **train a model**.
       - The model's performance on a downstream real-world task is used as the evaluation metric.
 
-    c. Task-Specific Evaluation
+#### c. Task-Specific Evaluation
     - Direct task completion evaluation, applicable in structured MAS tasks:
       - QA in general
       - Reference-Based: Translation... (translation companies, benchmark datasets; BLEU, ROUGE, F1...)
@@ -398,10 +400,9 @@ The effectiveness of summarization remains uncertain, as it may lose critical nu
       <img width="679" alt="image" src="https://github.com/user-attachments/assets/4c7130a4-34f2-4cc1-abb3-6e6c3b7f89ac" />
 
 
+### 2. Human-Centric Evaluation
 
-2. Human-Centric Evaluation
-
-    a. Believability Assessment
+#### a. Believability Assessment
     - Stanford Smallville ("Interviews"):  
       - Evaluates whether agents exhibit **believable individual behavior**.
       - Conducts human assessments of agent responses.
@@ -417,14 +418,14 @@ The effectiveness of summarization remains uncertain, as it may lose critical nu
         A: I could try waiting a few more minutes in case the person inside is done soon. If not, I guess I’ll have to look for an alternate option, like taking a shower elsewhere.
         ...
         ```
-    b. Emergent Capability Analysis
+#### b. Emergent Capability Analysis
     - **Eyeballing** Emergent Behaviors + Small-Scale Data Analysis  
       - Example: Werewolf Game
       - Evaluates unexpected but meaningful behaviors that arise in multi-agent interactions.
         <img width="942" alt="image" src="https://github.com/user-attachments/assets/a06845ef-1ca1-4b52-a4b5-e178bd51fd9e" />
 
 
-3. Rubrics
+### 3. Rubrics
 
     *Example: Legal Reasoning Rubric for Multi-Agent Legal Analysis System*
 
@@ -444,7 +445,7 @@ The effectiveness of summarization remains uncertain, as it may lose critical nu
     - Process-level evaluation is needed, rather than just final task performance.
     - No clear ground truth/reference exists, requiring human-like judgment.
 
-    a. Human-Centric Evaluation
+#### a. Human-Centric Evaluation
 
     1. Expert Human Ratings ("GOAT" Standard)  
         - Most reliable but expensive and time-consuming.
@@ -459,7 +460,7 @@ The effectiveness of summarization remains uncertain, as it may lose critical nu
         - A **human expert supervises**, while an LLM provides preliminary scores.
         - A dynamic, human-in-the-loop method.
 
-    b. Model-Based Automated Scoring
+#### b. Model-Based Automated Scoring
       1. Training a Score Model on Human Ratings  
           - Example: Debate (SPARK), Essay Writing, QA Explanation & Argumentation (Deshpande, D., Sourati, Z., Ilievski, F., & Morstatter, F. (2024). Contextualizing Argument Quality Assessment with Relevant Knowledge (No. arXiv:2305.12280). arXiv. http://arxiv.org/abs/2305.12280)
           - Uses supervised learning to train an MAS-specific rating model based on **human-labeled data**.
@@ -467,7 +468,7 @@ The effectiveness of summarization remains uncertain, as it may lose critical nu
       2. Enhancing Scoring Models via Reinforcement Learning  
           - Fine-tuning scoring models with reinforcement learning to improve their ability to differentiate nuanced responses.
 
-    4. Other Experimental & Heuristic Approaches
+    3. Other Experimental & Heuristic Approaches
     
       - Game-Theoretic Individual Rationality:  
         - Evaluate whether agents behave **rationally in competitive or cooperative games**. (Hua, W., Liu, O., Li, L., Amayuelas, A., Chen, J., Jiang, L., Jin, M., Fan, L., Sun, F., Wang, W., Wang, X., & Zhang, Y. (2024). Game-theoretic LLM: Agent Workflow for Negotiation Games (No. arXiv:2411.05990). arXiv. https://doi.org/10.48550/arXiv.2411.05990)
@@ -480,7 +481,7 @@ The effectiveness of summarization remains uncertain, as it may lose critical nu
           - Instead of evaluating **intermediate steps**, assess the **final output**. (Iglesia, I. D. la, Goenaga, I., Ramirez-Romero, J., Villa-Gonzalez, J. M., Goikoetxea, J., & Barrena, A. (2024). Ranking Over Scoring: Towards Reliable and Robust Automated Evaluation of LLM-Generated Medical Explanatory Arguments (No. arXiv:2409.20565). arXiv. https://doi.org/10.48550/arXiv.2409.20565)
           - Limitation: **May overlook nuanced process-level insights**.
 
-5. Meta-Evaluation: Evaluating the Evaluation Methods
+### 4. Meta-Evaluation: Evaluating the Evaluation Methods
 
     Since MAS evaluation methods vary widely, ensuring their reliability and alignment with human intuition is crucial. Meta-evaluation assesses the effectiveness of evaluation strategies through:
 
@@ -497,54 +498,49 @@ The effectiveness of summarization remains uncertain, as it may lose critical nu
     - Requires human expert validation and, in some cases, **benchmarking against real-world outcomes**.
 
 
-# Limitations of current LLM-based MAS
+## Limitations of current LLM-based MAS
 
 1. Unified Governance
-    - Requires the design of coordination and planning mechanisms to determine task allocation and agent participation.
-    - Agents must have dynamic adjustment capabilities to adapt to task variations.
-    - The absence of failure recovery mechanisms may cause task failures due to misunderstandings or communication breakdowns.
-    - Introducing redundant agents or backup mechanisms could enhance system reliability.
+    - Coordination? Planning? Task allocation?
+    - Dynamic adjustment to adapt to task variations?
+    - Failure recovery? Self-Correction?
 
 2. Shared Decision Making
-    - Existing decision-making methods (e.g., voting or dictatorial decisions) are overly simplistic and fail to balance individual preferences.
-    - LLMs may exhibit overconfidence, leading to decision biases and potential amplification of errors within the system.
-    - Novel decision-making approaches are needed to enhance diversity and fairness while mitigating the accumulation of individual biases.
+    - Echo chamber: e.g., voting or dictatorial decisions are overly simplistic and fail to balance individual preferences.
+    - Overconfidence? silent spiral? snowball error?
 
 3. Agent as Digital Species
-    - LLMs are not originally designed for MAS, making efficient collaboration difficult and increasing susceptibility to "hallucinations" and misinformation propagation.
+    - LLMs are **not originally designed for MAS**, making efficient collaboration difficult
+    - Hallucinations? misinformation propagation?
     - MAS is vulnerable to adversarial attacks, where errors spread among agents, potentially leading to systemic failure.
-    - Optimized LLMs (e.g., Gemini 2.0) are required to improve collaboration capabilities, error detection, and correction mechanisms.
 
 4. Scalability and Resource Maintenance
-    - As the number of agents increases, communication and computational resources become constrained, affecting MAS efficiency.
-    - Effective resource management strategies are necessary to prevent task allocation bottlenecks and excessive computational costs.
-    - Studying MAS scalability behavior can help optimize system architecture for large-scale collaboration.
+    - Communication and computational resources/costs? Efficiency?
+    - Scalability? large-scale collaboration?
 
 5. Unexpected Generalization
     - In certain environments, MAS may autonomously develop complex behaviors, such as innovative problem-solving.
-    - However, predicting and controlling when effective generalization occurs remains a challenge, and fostering beneficial self-organizing behaviors requires further exploration.
-    - Research is needed to identify interaction patterns among agents that trigger generalization capabilities.
+    - Reliability? self-organizing behaviors? 
+    - **Underlying mechanisms among agents that trigger generalization capabilities**.
 
-# Challenges in MAS Evaluation
+## Challenges in MAS Evaluation
 
-1. Lack of Standardized Evaluation
+1. **Lack of Standardized Evaluation**
     - Most current research evaluates individual LLM capabilities rather than the overall MAS performance.
     - MAS requires a comprehensive evaluation framework covering system reasoning, task completion rates, coordination efficiency, and decision rationality.
     - A multi-level analysis framework (individual-collaboration-system) is needed to better understand MAS operational mechanisms.
 
 2. Inconsistent Evaluation Scenarios
-    - Existing studies assess MAS in different environments, tasks, and configurations, making results incomparable.
-    - The lack of standardized benchmarks hinders the ability to measure performance across different MAS systems and slows down progress in the field.
-    - A universal benchmarking framework is required to ensure reproducible and comparable evaluations.
+    - Existing studies assess MAS in **different environments, tasks, and configurations, making results incomparable.**
+    - The lack of **standardized benchmarks** hinders the ability to measure performance across different MAS systems and slows down progress in the field.
 
 3. Static Benchmarks Become Obsolete
     - Traditional evaluation benchmarks may become outdated and misaligned with real-world requirements, leading to misleading optimization (e.g., data leakage, overfitting).
-    - A dynamic evaluation system is necessary to continuously update test scenarios in response to technological and environmental changes.
-    - These benchmarks should cover diverse tasks to ensure MAS adaptability to real-world complexities.
+    - A **dynamic evaluation system** is necessary to continuously update test scenarios in response to technological and environmental changes.
 
-# If MAS is the Answer, What is the Question?
+## If MAS is the Answer, What is the Question?
 
-## 1. Performance Limitations
+### 1. Performance Limitations
 - **Underperformance vs. Single Agents**: MAS often fails to outperform single-agent baselines (Simple 0-shot CoT, Self-Consistency, ...) in reasoning, programming, and QA tasks
 - **Root Causes**:
   - Excessive **coordination overhead** and **redundant communication**
@@ -554,7 +550,7 @@ The effectiveness of summarization remains uncertain, as it may lose critical nu
 <img width="1123" alt="image" src="https://github.com/user-attachments/assets/2bf0da52-96f7-4ba7-b725-19ae2182fa0b" />
 
 
-## 2. Collaboration Deficiencies
+### 2. Collaboration Deficiencies
 - **Agent Misalignment Issues**: Role conflicts, information withholding, reasoning-action disconnects
 - **Underlying Mechanisms**:
   - Ambiguous role boundaries (15% of failures)
@@ -564,19 +560,21 @@ The effectiveness of summarization remains uncertain, as it may lose critical nu
 <img width="1070" alt="image" src="https://github.com/user-attachments/assets/9bf82ccd-4b66-4f1d-8d12-e4b22d6baea7" />
 
 
-## 3. Evaluation Shortcomings
-- **Limited Assessment Scope**: Narrow task focus with simplistic baselines (only 15% significantly outperform CoT)
+### 3. Evaluation Shortcomings
+- **Limited Assessment Scope**:
+  - Narrow task focus with simplistic baselines (only 15% significantly outperform CoT)
+  - NO SINGLE AGENT BASELINE
 - **Methodological Flaws**:
   - Dataset biases with limited domain coverage
   - Overemphasis on accuracy at the expense of efficiency and robustness
 
-## 4. Scalability Challenges
+### 4. Scalability Challenges
 - **Poor Adaptation**: Unstable performance in dynamic environments and complex tasks
 - **Structural Limitations**:
   - Static communication topologies (performance impact up to 6.4%)
   - Inadequate memory management causing context loss
 
-## Improvement Directions
+### Improvement Directions
 
 1. **Structural Optimization**
    - Dynamic role allocation (AgentDropout reduces tokens by 21.6%)
@@ -606,17 +604,17 @@ Zhang, H., Cui, Z., Wang, X., Zhang, Q., Wang, Z., Wu, D., & Hu, S. (2025). If M
 
 
 
-# Thoughts in MAS Development (until now; personal)
+## Thoughts in MAS Development (until now; personal)
 
 > Avoid anthropocentrism when designing models or (especially) dialogue processes. Refrain from blindly applying human understanding patterns to these systems. Instead, approach design decisions from the foundational mechanisms and principles of LLMs themselves.
 
-## On Conversation History
+### On Conversation History
 
 We cannot interpret LLM response generation mechanisms through the same lens as human understanding of "chat history." 
 
 For LLMs in multi-agent systems, when processing dialogue history, "**comprehensive reading comprehension**" aligns more closely with their cognitive patterns than "**sequential user inputs**." This is because LLMs are trained (especially during instruction fine-tuning phases) based on "user input" paradigms, which indicates that LLMs are not inherently suited for multi-agent systems at a fundamental level. Consequently, we need to implement certain mechanical modifications to translate human understanding of multi-party conversations into formats compatible with LLM processing mechanisms.
 
-### Method 0: Direct Human-Intuitive Input Format
+#### Method 1: Direct Human-Intuitive Input Format
 ```python
 messages = [
     {"role": "assistant", "content": "Statement", "name": "Judge"},
@@ -627,7 +625,7 @@ messages = [
 ```
 Empirical findings indicate that this approach triggers the model's "fine-tuning" mode. From a theoretical perspective: 1) First, the `name` field is not visible to the model; 2) second, the `content` field in `user` inputs is interpreted by the model as "user input," while the `content` field in `assistant` inputs is interpreted as "expected model output during fine-tuning," thus initiating a "fine-tuning" process.
 
-### Method 1: Sequential User Input (Aligns with Human Understanding but Contradicts LLM Principles)
+#### Method 2: Sequential User Input (Aligns with Human Understanding but Contradicts LLM Principles)
 ```python
 messages = [
     {"role": "user", "content": "[Judge]: Statement"},
@@ -638,7 +636,7 @@ messages = [
 ```
 Empirical findings demonstrate that this input method struggles to achieve satisfactory instruction adherence and minimal hallucination (since consecutive `user` inputs can be baffling for the model to capture user intent), even with large parameter models (e.g., `gpt-4o`), as the model fails to comprehend the true "user intent." When switching to models with slightly smaller parameter counts (e.g., GPT-4o-mini), the simulation becomes nearly impossible to complete effectively.
 
-### Method 2: Reading Comprehension (Aligns with LLM Principles but Diverges from Human Understanding)
+#### Method 3: Reading Comprehension (Aligns with LLM Principles but Diverges from Human Understanding)
 ```python
 messages = [
     {"role": "user", 
@@ -653,7 +651,7 @@ messages = [
 ]
 ```
 
-Empirical evidence demonstrates that Method 2 achieves superior instruction adherence (intent understanding) and reduced hallucination, even with models of relatively smaller parameter counts (such as Qwen/Qwen2.5-32B-Instruct). Furthermore, we discovered that this approach fully unleashes the model's complete language capabilities, enabling even 32B models (`qwen-2.5-32b-instruct`) to provide more nuanced and specific details in conversations - a level of detail that proved challenging to obtain with `gpt-4o` using Method 2.
+Empirical evidence demonstrates that Method 3 achieves superior instruction adherence (intent understanding) and reduced hallucination, even with models of relatively smaller parameter counts (such as Qwen/Qwen2.5-32B-Instruct). Furthermore, we discovered that this approach fully unleashes the model's complete language capabilities, enabling even 32B models (`qwen-2.5-32b-instruct`) to provide more nuanced and specific details in conversations - a level of detail that proved challenging to obtain with `gpt-4o` using Method 3.
 
 ```
 # 尽管我们没有解决证据具体内容生成的pipeline，但模型已经能够提供精细的具体细节
@@ -665,7 +663,7 @@ Empirical evidence demonstrates that Method 2 achieves superior instruction adhe
 ```
 
 
-## On Prompt Style
+### On Prompt Style
 
 When training, LLMs primarily output in a markdown format environment, making them highly sensitive to markdown syntax. Unlike humans, who prefer natural language hierarchical structures, LLMs favor markdown's hierarchical structure. Therefore, when designing prompts, it is advisable to use markdown format as much as possible (such as using more # headings) to enhance the model's understanding.
 
@@ -683,13 +681,13 @@ is better than:
 ```
 in terms of thinking patterns of LLMs.
 
-## On Prompt Constraints
+### On Prompt Constraints
 
 LLMs understand LLMs better. Compared to human-in-the-loop test-driven development (TDD) style prompt modifications, using LLMs to modify prompts is more efficient. 
 
 By providing conversation performance to ChatGPT, allowing it to analyze problems and adjust the approach, and then giving the actual prompts to ChatGPT, selective updates to the prompts can be made based on ChatGPT's modifications. Empirical evidence shows that this can achieve more efficient and precise constraints.
 
-# References
+## References
 
 > Many of the ideas and concepts discussed in this blog post are inspired by various academic works I've encountered in my research. While the specific references for some concepts may not be explicitly recalled, I've attempted to provide a collection of relevant literature that has influenced my thinking on these topics. The references listed below represent only a portion of the inspirational sources that have shaped this work. I sincerely apologize for any omissions of important works that have contributed to the development of these ideas.
 
