@@ -9,7 +9,7 @@ order: 1
 <img src="https://github.com/user-attachments/assets/66e1723f-a2ef-44d9-bb8d-6a69c1e34ca6" width="400" alt="yiran">
 
 
-My name is **MA Yiran (马义然)**, and I go by **Yiran Rex Ma** in papers (well, in the near future). Call me Yiran or Rex per your liking!
+My name is **MA Yiran (马义然)**, and I go by **Yiran Rex Ma** in papers. Call me Yiran or Rex per your liking!
 
 ---
 
@@ -24,7 +24,7 @@ At precent, I am a research intern in Legal AI Group, [THUNLP](https://nlp.csai.
 My current research concentration is **Linguistic Issues around Computation**: 
 
 - Linguistic Knowledge Representation and Architecture Fusion (Multi-Agent, Non-Parametric Methods, etc.)
-- Paleography and Multilinguality
+- Diachronic Linguistics and Multilinguality
 - Language Ability Augmentation and Benchmarking
 - ...
 
