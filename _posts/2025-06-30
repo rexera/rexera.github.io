@@ -1,0 +1,20 @@
+---
+title: "[IJCNN 2025] PanelTR: Zero-Shot Table Reasoning Through Multi-Agent Scientific Discussion"
+date: 2025-06-30
+categories: [Technical, MAS]
+---
+
+Ever wonder how AI can tackle complex table reasoning—like answering questions from financial reports or verifying facts in scientific papers—without any prior training? In this paper, **PanelTR**, I explore exactly that!
+
+Instead of relying on heavy data annotation or complex neural architectures, I designed a **multi-agent framework** where five LLM-powered scientist personas—like **Einstein**, **Newton**, and **Curie**—work together to analyze, debate, and refine answers through a structured scientific process:
+
+- 🔍 **Investigation**: Each scientist breaks down the problem.
+- 👁️ **Self-Review**: They critique their own reasoning.
+- 🧠 **Peer-Review**: They discuss and vote on the best answer.
+
+The result? **PanelTR outperforms standard LLMs** and even **rivals supervised models**—all in a **zero-shot setting** (no task-specific training required. It’s like having a mini-science panel inside your computer.
+
+[![arXiv](https://img.shields.io/badge/arXiv-2508.06110-b31b1b.svg)](https://arxiv.org/abs/2508.06110)
+
+*Abstract:*  
+> Table reasoning, including tabular QA and fact verification, often depends on annotated data or complex data augmentation, limiting flexibility and generalization. We introduce PanelTR, a framework utilizing LLM agent scientists for robust table reasoning through a structured scientific approach. Experiments across four benchmarks show that PanelTR outperforms vanilla LLMs and rivals fully supervised models, all while remaining independent of training data.
