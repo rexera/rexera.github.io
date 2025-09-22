@@ -715,3 +715,7 @@ Xu, Y., Wang, S., Li, P., Luo, F., Wang, X., Liu, W., & Liu, Y. (2024). Explorin
 Zhang, C., Yang, K., Hu, S., Wang, Z., Li, G., Sun, Y., Zhang, C., Zhang, Z., Liu, A., Zhu, S.-C., Chang, X., Zhang, J., Yin, F., Liang, Y., & Yang, Y. (2024). ProAgent: Building Proactive Cooperative Agents with Large Language Models. Proceedings of the AAAI Conference on Artificial Intelligence, 38(16), 17591–17599. https://doi.org/10.1609/aaai.v38i16.29710
 Zhang, C., Li, R., Tan, M., Yang, M., Zhu, J., Yang, D., Zhao, J., Ye, G., Li, C., & Hu, X. (2024). CPsyCoun: A Report-based Multi-turn Dialogue Reconstruction and Evaluation Framework for Chinese Psychological Counseling (Version 3). arXiv. https://doi.org/10.48550/ARXIV.2405.16433
 ```
+
+## Acknowledgement
+
+This blog has been finished during internship at Legal AI subdivision in TsinghuaNLP.
