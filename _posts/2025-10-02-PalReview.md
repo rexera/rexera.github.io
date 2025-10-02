@@ -4,7 +4,10 @@ date: 2025-10-02
 categories: [Technical, Paleography]
 ---
 
-> 出于研究群体实际，1）本文将使用中文写作；2）本文将“古文字”“古文字学”局限在“古汉字”当中。若读者对于全人类范围、最广泛意义的古文字处理感兴趣，不妨参考：[Ancient Script Image Recognition and Processing: A Review](https://arxiv.org/abs/2506.19208)
+> Based on the actual research community, 1) this article will be written in Chinese, sincere apologies for any inconvenience caused; 2) this article will limit "ancient scripts" and "paleography" to "ancient Chinese characters". If readers are interested in ancient script processing in the broadest sense for all humanity, please refer to: [Ancient Script Image Recognition and Processing: A Review](https://arxiv.org/abs/2506.19208)
+> 
+> 出于研究群体实际，1）本文将使用中文写作；2）本文将"古文字""古文字学"局限在"古汉字"当中。若读者对于全人类范围、最广泛意义的古文字处理感兴趣，不妨参考：[Ancient Script Image Recognition and Processing: A Review](https://arxiv.org/abs/2506.19208)
+
 
 <img width="777" height="311" alt="B6931" src="https://github.com/user-attachments/assets/43b47f42-a017-4b12-b517-d1f395e9a32c" />
 
