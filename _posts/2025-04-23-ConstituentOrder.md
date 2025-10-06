@@ -1,5 +1,5 @@
 ---
-title: "「ArXiv」Contrastive Analysis of Constituent Order Preferences Within Adverbial Roles in English and Chinese News: A Large-Language-Model-Driven Approach"
+title: "[ArXiv] Contrastive Analysis of Constituent Order Preferences Within Adverbial Roles in English and Chinese News: A Large-Language-Model-Driven Approach"
 date: 2025-04-23
 categories: [Publication]
 ---
