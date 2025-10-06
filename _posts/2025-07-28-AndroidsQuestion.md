@@ -1,16 +1,16 @@
 ---
-title: "「ACL SRW 2025」Do Androids Question Electric Sheep? A Multi-Agent Cognitive Simulation of Philosophical Reflection on Hybrid Table Reasoning"
+title: "[ACL 2025] Do Androids Question Electric Sheep? A Multi-Agent Cognitive Simulation of Philosophical Reflection on Hybrid Table Reasoning"
 date: 2025-07-28
 categories: [Publication]
 ---
 
-## Do Androids Overthink Electric Sheep? 🤔
+## Do Androids Overthink Electric Sheep?
 
 Turns out, AI might be just like us when it comes to thinking too much. 
 
 In my latest paper, I set up a “philosophical debate club” for language models—where AI agents role-play as Socrates, Aristotle, and other great thinkers to solve tricky table-reasoning problems. 
 
-The result? They definitely *think*. But just like humans, more thinking doesn’t always mean better answers. In fact, after a certain point—what I call the **“overthinking threshold”**—performance starts dropping. Sound familiar? 😉
+The result? They definitely *think*. But just like humans, more thinking doesn’t always mean better answers. In fact, after a certain point—what I call the **“overthinking threshold”**—performance starts dropping. Sound familiar? 
 
 LLMs showed eerily human-like behaviors: under-confidence, echo chambers, going off-topic, and even daydreaming. Maybe androids *do* question electric sheep… a little too much.
 
