@@ -12,9 +12,11 @@ My name is **MA Yiran (马义然)**, and I go by **Yiran Rex Ma** in papers. Cal
 
 ---
 
-I am with [PKU-ByteDance Digital Humanities Open Laboratory (PKUDH)](https://pkudh.org) in Peking University, working on **Multi-Modality Intelligence** on cultural heritage. I am currently a senior in School of Humanities, Beijing University of Posts and Telecommunications (BUPT), majoring in English, Linguistics and Language Technologies with a minor in Data Science and Big Data Technologies. 
+I am with [PKU-ByteDance Digital Humanities Open Laboratory (PKUDH)](https://pkudh.org) in Peking University, working on **Multi-Modality Intelligence** on cultural heritage. 
 
-Coming in September 2026, I am to be admitted to Peking Univeristy as a master majored in Foreign Linguistics and Applied Linguistics in School of Foreign Languages with a concentration on computational linguistics, supervised by [Prof. SU Qi](https://pkudh.org/member/suqi.html).
+Currently, I am a senior in School of Humanities, Beijing University of Posts and Telecommunications (BUPT), majoring in English, Linguistics and Language Technologies with a minor in Data Science and Big Data Technologies. 
+
+Coming in September 2026, I am to be admitted to Peking Univeristy as a master majored in Foreign Linguistics and Applied Linguistics in School of Foreign Languages with a concentration on computational linguistics, specifically human-machine _semantic role reordering_ in English and Chinese, supervised by [Prof. SU Qi](https://pkudh.org/member/suqi.html).
 
 From September 2024 to August 2025, I was a research intern in Legal AI Subdivision in [TsinghuaNLP](https://nlp.csai.tsinghua.edu.cn), supervised by [Dr. YE Yuxiao](https://yeyuxiao.github.io). My work revolved around multi-agent court simulation system, integration of linguistics, and evaluating LLMs' proficiency on legalese. 
 
