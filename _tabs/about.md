@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 1
 ---
 
-> 你好！Hello! Bonjour ! Hola!
+> heyyy
 
 <img src="https://github.com/user-attachments/assets/215b2e20-369d-4345-a7aa-aa9542297990" width="100" alt="profile">
 
@@ -12,13 +12,13 @@ My name is **MA Yiran (马义然)**, and I go by **Yiran Rex Ma** in papers. Cal
 
 ---
 
-I am with [PKU-ByteDance Digital Humanities Open Laboratory (PKUDH)](https://pkudh.org) in Peking University, working on **Multi-Modal Intelligence** on cultural heritage. 
+I'm with [PKU-ByteDance Digital Humanities Open Laboratory (PKUDH)](https://pkudh.org) in Peking University, working on **Multi-Modal Intelligence** on cultural heritage. 
 
-Currently, I am a senior in School of Humanities, Beijing University of Posts and Telecommunications (BUPT), majoring in _English, Linguistics and Language Technologies_ with a minor in _Data Science and Big Data Technologies_. Before that, I was primarily trained in the humanities with a discovered and ever since ongoing passion for human languages.
+Coming in September 2026, I'm going to be admitted to Peking Univeristy as an MA majoring in _Foreign Linguistics and Applied Linguistics_, supervised by [Prof. SU Qi](https://pkudh.org/member/suqi.html). My concentration is/will be on computational linguistics, specifically human-machine _information structure asymmetry_ between English and Chinese.
 
-Coming in September 2026, I am to be admitted to Peking Univeristy as a master majoring in _Foreign Linguistics and Applied Linguistics_ in School of Foreign Languages with a concentration on computational linguistics, specifically human-machine _information structure asymmetry_ between English and Chinese, supervised by [Prof. SU Qi](https://pkudh.org/member/suqi.html).
+Currently, I'm a senior BA in Beijing University of Posts and Telecommunications (BUPT), majoring in _English, Linguistics and Language Technologies_ with a minor in _Data Science and Big Data Technologies_. Before that, I was primarily trained in the humanities with a discovered and ever since ongoing passion for human languages.
 
-From September 2024 to August 2025, I was a research intern in both _Legal AI_ and _Computational Paleography_ subdivisions in [TsinghuaNLP](https://nlp.csai.tsinghua.edu.cn), working around multi-agent court simulation, evaluating legalese generation, and graph-based Oracle Bone Inscription processing.
+From September 2024 to August 2025, I was a research intern in both _Legal AI_ and _Computational Paleography_ subdivisions in [TsinghuaNLP](https://nlp.csai.tsinghua.edu.cn), working around multi-agent court simulation, legalese generation evaluation, and graph-based oracle bone inscription (OBI) processing.
 
 ---
 
