@@ -4,9 +4,7 @@ icon: fas fa-info-circle
 order: 1
 ---
 
-> heyyy
-
-<img src="https://github.com/user-attachments/assets/215b2e20-369d-4345-a7aa-aa9542297990" width="100" alt="profile">
+<img src="https://github.com/user-attachments/assets/415bc094-d309-4dae-9481-cef35eb00544" width="500" alt="profile">
 
 My name is **MA Yiran (马义然)**, and I go by **Yiran Rex Ma** in papers. Call me *Yiran* or *Rex* per your liking :)
 
@@ -14,7 +12,7 @@ My name is **MA Yiran (马义然)**, and I go by **Yiran Rex Ma** in papers. Cal
 
 I'm with [PKU-ByteDance Digital Humanities Open Laboratory (PKUDH)](https://pkudh.org) in Peking University, working on **Multi-Modal Intelligence** on cultural heritage. 
 
-Coming in September 2026, I'm going to be admitted to Peking Univeristy as an MA majoring in _Foreign Linguistics and Applied Linguistics_, supervised by [Prof. SU Qi](https://pkudh.org/member/suqi.html). My concentration is/will be on computational linguistics, specifically human-machine _information structure asymmetry_ between English and Chinese.
+Coming in September 2026, I'm going to be admitted to Peking Univeristy as an MA majoring in _Theoretical and Applied Linguistics_, supervised by [Prof. SU Qi](https://pkudh.org/member/suqi.html). My concentration is/will be on computational linguistics, specifically human-machine _information structure asymmetry_ between English and Chinese.
 
 Currently, I'm a senior BA in Beijing University of Posts and Telecommunications (BUPT), majoring in _English, Linguistics and Language Technologies_ with a minor in _Data Science and Big Data Technologies_. Before that, I was primarily trained in the humanities with a discovered and ever since ongoing passion for human languages.
 
