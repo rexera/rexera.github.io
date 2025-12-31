@@ -10,13 +10,13 @@ My name is **MA Yiran (马义然)**, and I go by **Yiran Rex Ma** in papers. Cal
 
 ---
 
-I'm with [PKU-ByteDance Digital Humanities Open Laboratory (PKUDH)](https://pkudh.org) in Peking University, working on **Multi-Modal Intelligence** on cultural heritage. 
+I'm with [PKU-ByteDance Digital Humanities Open Laboratory (PKUDH)](https://pkudh.org) in Peking University, working on **Multi-Modal Intelligence** on cultural heritage (in collaboration with [Qwen Team](https://qwenlm.github.io/)). 
 
-Coming in September 2026, I'm going to be admitted to Peking Univeristy as an MA majoring in _Theoretical and Applied Linguistics_, supervised by [Prof. SU Qi](https://pkudh.org/member/suqi.html). My concentration is/will be on computational linguistics, specifically human-machine _information structure asymmetry_ between English and Chinese.
+Coming in September 2026, I'm going to be admitted to Peking Univeristy as an MA (quasi-PhD) majoring in _Theoretical and Applied Linguistics_, supervised by [Prof. SU Qi](https://pkudh.org/member/suqi.html). My concentration is/will be on computational linguistics, specifically on human-machine, English-Chinese, and mechanical neural substrates.
 
 Currently, I'm a senior BA in Beijing University of Posts and Telecommunications (BUPT), majoring in _English, Linguistics and Language Technologies_ with a minor in _Data Science and Big Data Technologies_. Before that, I was primarily trained in the humanities with a discovered and ever since ongoing passion for human languages.
 
-From September 2024 to August 2025, I was a research intern in both _Legal AI_ and _Computational Paleography_ subdivisions in [TsinghuaNLP](https://nlp.csai.tsinghua.edu.cn), working around multi-agent court simulation, legalese generation evaluation, and graph-based oracle bone inscription (OBI) processing.
+From September 2024 to August 2025, I was a research intern in both _Legal AI_ and _Computational Paleography_ subdivisions in [TsinghuaNLP](https://nlp.csai.tsinghua.edu.cn), working on multi-agent court simulation, legalese generation evaluation, and graph-based oracle bone inscription (OBI) processing.
 
 ---
 
@@ -24,14 +24,12 @@ My current scope is: **AI Data Governance**:
 
 Aside from being increasingly proficient "sense-making machines" on formal levels, AIs fall short of what cannot be modeled intuitively at present, namely, agency/subjectivity, knowledge, experience, emotion, culture, ... Moreover, pain, gap, imperfection, ... Therefore, I aspire to engage in attempts at:
 
-- Self-supervised data curation
+- Self-supervised data/context curation
 - Synthesization and augmentation
-- _"Super"_ representation and alignment
+- _Omni_ representation and alignment
 - ...
 
-All serving full modality, large scale continous training and reinforcement learning.
-
-> While this may sound far-fetched, "if you don't live in the future today, you will live in the past tomorrow". I will keep making my contribution through consistent, bit-by-bit action. Even baby steps matter!
+> "If you don't live in the future today, you will live in the past tomorrow". I will keep making my contribution through consistent, bit-by-bit action. Even baby steps matter.
 
 ---
 
