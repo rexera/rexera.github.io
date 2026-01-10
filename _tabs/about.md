@@ -2,7 +2,6 @@
 # the default layout is 'page'
 icon: fas fa-info-circle
 order: 1
-math: True
 ---
 
 ## Yiran Rex Ma
@@ -11,11 +10,11 @@ math: True
 
 My name is **MA Yiran (马义然)**, and I go by **Yiran Rex Ma** in papers. Call me *Yiran* or *Rex* per your liking :)
 
-I'm with [Peking University & ByteDance Digital Humanities Open Laboratory (PKUDH)](https://pkudh.org), working on **Multi-Modal Intelligence** on cultural heritage in collaboration with [Qwen Team](https://qwenlm.github.io/) in Alibaba Group. 
+I'm with [Peking University & ByteDance Digital Humanities Open Laboratory (PKUDH)](https://pkudh.org) and serving as a joint intern of [Qwen Team](https://qwenlm.github.io/) in Alibaba Group, working on **Multi-Modal Intelligence** on cultural heritage. 
 
 Coming in September 2026, I'm going to be admitted to Peking Univeristy as a PhD in _Theoretical and Applied Linguistics_, supervised by [Prof. SU Qi](https://pkudh.org/member/suqi.html). My concentration is/will be on computational linguistics, specifically on human-machine, English-Chinese, and mechanical neural substrates.
 
-Currently, I'm a senior BA in Beijing University of Posts and Telecommunications (BUPT), majoring in _English, Linguistics and Language Technologies_ with a minor in _Data Science and Big Data Technologies_. From September 2024 to August 2025, I was a research intern in AI $$+X$$ subdivisions in [TsinghuaNLP](https://nlp.csai.tsinghua.edu.cn) with [Prof. LIU Zhiyuan](https://nlp.csai.tsinghua.edu.cn/~lzy/). Before that, I was primarily trained in the humanities with a discovered and ever since ongoing passion for human languages. 
+Currently, I'm a senior BA in Beijing University of Posts and Telecommunications (BUPT), majoring in _English, Linguistics and Language Technologies_ with a minor in _Data Science and Big Data Technologies_. From September 2024 to August 2025, I was a research intern in AI+X subdivisions in [TsinghuaNLP](https://nlp.csai.tsinghua.edu.cn) with [Prof. LIU Zhiyuan](https://nlp.csai.tsinghua.edu.cn/~lzy/). Before that, I was primarily trained in the humanities with a discovered and ever since ongoing passion for human languages. 
 
 ---
 
