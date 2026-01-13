@@ -1,6 +1,6 @@
 ---
 title: "[ArXiv] Towards Computational Chinese Paleography"
-date: 2026-01-13 11:30:17
+date: 2026-01-13 11:30:17 +0800
 categories: [Technical, Paleography]
 ---
 
