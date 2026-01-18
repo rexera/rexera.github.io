@@ -10,7 +10,7 @@ order: 1
 
 My name is **MA Yiran (马义然)**, and I go by **Yiran Rex Ma** in papers. Call me *Yiran* or *Rex* per your liking :)
 
-I'm with [Peking University & ByteDance Digital Humanities Open Laboratory (PKUDH)](https://pkudh.org) and serving as a joint intern of [Qwen Team](https://qwenlm.github.io/) in Alibaba Group, working on **Multi-Modal Intelligence** on cultural heritage. 
+I'm with [Peking University & ByteDance Digital Humanities Open Laboratory (PKUDH)](https://pkudh.org) and serving as a visiting associate of [Qwen Team](https://qwenlm.github.io/) in Alibaba Group, working on **Multi-Modal Intelligence** on cultural heritage. 
 
 Coming in September 2026, I'm going to be admitted to Peking Univeristy as a PhD in _Theoretical and Applied Linguistics_, supervised by [Prof. SU Qi](https://pkudh.org/member/suqi.html). My concentration is/will be on computational linguistics, specifically on human-machine, English-Chinese, and mechanical neural substrates.
 
