@@ -20,21 +20,19 @@ Currently, I'm a senior BA in Beijing University of Posts and Telecommunications
 
 ## Current Scope
 
-My current foucs is on: **AI Data Governance**: 
+My current foucs is on: **Agentic Agency**, including but not limited to: 
 
-> Aside from being increasingly proficient "sense-making machines" on formal levels, AIs fall short of what cannot be modeled intuitively at present, namely, agency/subjectivity, knowledge, experience, emotion, culture, ... Moreover, pain, gap, imperfection, ... Therefore, I aspire to engage in attempts at:
+- **Data**: Unsupervised, low-resource, heuristic methods to align human knowledge, experience, and emotion.
+- **Algo**: Multi-scale memory, lifelong learning solutions within intelligence core.
+- **Architecture**: Modularized, dynamic, autonomously adaptive and deploying; enhance "intuition/_sense_" to elevate efficiency (complementing training/inference infra).
 
-- Self-supervised data/context curation
-- Synthesization and augmentation
-- _Omni_ representation and alignment
-- ...
 
-> "If you don't live in the future today, you will live in the past tomorrow". I will keep making my contribution through consistent, bit-by-bit action. Even baby steps matter.
+> Agentic Agency (AA) franchise is cooking up. Stay tuned 😆
 
 ---
 
-## Closing Remarks
+## Last but not least
 
-...and I’m a language aficionado! American English and Simplified Chinese are my primary working languages, while I was born and raised with Sichuan Dialect as my mother tone and Mandarin Chinese my first language. Besides, I’m currently on track for Spanish, French, and Traditional Chinese (and more...). Hopefully I will become a polyglot :)
+...and I’m a language aficionado! American English and Simplified Chinese are my primary working languages, while I was born and raised with Sichuan Dialect as my mother tone and Mandarin Chinese my first language. Besides, I’m currently on track for Spanish, French, and Traditional Chinese (and more...). Hopefully I will become a polyglot 🥰
 
 This is an academic/personal profile/blog, where I update news and whimsical thoughts. Enjoy!
