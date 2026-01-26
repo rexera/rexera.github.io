@@ -1,0 +1,9 @@
+# Override copyright text in footer
+copyright:
+  brief: All rights reserved.
+  verbose: >-
+    All content on this site is protected by copyright.
+    All rights reserved by the author.
+
+# Footer meta text (theme attribution)
+meta: Using the :THEME theme for :PLATFORM.
