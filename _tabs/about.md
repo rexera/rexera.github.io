@@ -14,7 +14,7 @@ I'm with [Peking University & ByteDance Digital Humanities Open Laboratory (PKUD
 
 Coming in September 2026, I'm starting my PhD in _Theoretical and Applied Linguistics_ at Peking University, supervised by [Prof. SU Qi](https://pkudh.org/member/suqi.html). My concentration is on computational linguistics, specifically on latent space of artificial neural networks.
 
-Currently, I'm graduating as a BA in Beijing University of Posts and Telecommunications (BUPT), majoring in _English, Linguistics and Language Technologies_ with a minor in _Data Science and Big Data Technologies_. From September 2024 to August 2025, I was a research intern in _AI for Humanities/Social Sciences_ subdivisions in [TsinghuaNLP](https://nlp.csai.tsinghua.edu.cn) with [Prof. LIU Zhiyuan](https://nlp.csai.tsinghua.edu.cn/~lzy/). Before that, I was primarily trained in the humanities with a discovered and ever since ongoing passion for human languages. 
+Currently, I'm graduating from Beijing University of Posts and Telecommunications (BUPT), with a BA in _English, Linguistics and Language Technologies_ and a minor in _Data Science and Big Data Technologies_. From September 2024 to August 2025, I was a research intern in _AI for Humanities/Social Sciences_ subdivisions in [TsinghuaNLP](https://nlp.csai.tsinghua.edu.cn) with [Prof. LIU Zhiyuan](https://nlp.csai.tsinghua.edu.cn/~lzy/). Before all that, I was primarily trained in the humanities with a discovered and ever since ongoing passion for human languages. 
 
 ---
 
@@ -33,6 +33,11 @@ What I'm truly after is to build **native capabilities into the model to handle 
 I’m something of a language aficionado. American English and Simplified Chinese are my primary working languages, while I was born and raised with Sichuan Dialect as my mother tone and Mandarin Chinese my first language. Besides, I’m currently on track for Spanish, French, and Traditional Chinese (and more...). 
 
 And if we think of language (both natural and programming) as a _human-driven probability system_, I also hope to establish proficiency bestriding among major languages, to become a (self-proclaimed) full-stack polyglot 🥰
+
+Oh, I also produce my own music under the name RexEra, experimenting with elements in Pop and Rap while documenting my life. 
+
+[![RexEra](https://img.shields.io/badge/Spotify-RexEra-1ED760?style=flat&logo=spotify&logoColor=white)](https://open.spotify.com/artist/6Em2PWIaOI9lIZ9lqlAePw)
+[![RexEra](https://img.shields.io/badge/Apple_Music-RexEra-FF4E6B?style=flat&logo=apple-music&logoColor=white)](https://music.apple.com/us/artist/rexera/1820862938)
 
 ---
 
