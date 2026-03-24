@@ -32,7 +32,7 @@ What I'm truly after is to build **native capabilities into the model to handle 
 
 ## Last but not least
 
-I’m something of a language aficionado, ever since I was made to realize this when my education finally took English seriously at the age of 13. Unlike many of my peers in this context, my family is nothing but humble small town dwellers from the rurals, with nothing fancy but love and support.
+I’m something of a language aficionado, ever since I was made to realize this when my education finally took English seriously at the age of 13. Unlike many of my peers in this context, my family is nothing but humble small town dwellers from the rurals, with nothing fancy but unspoken, Asian-style support.
 
 Therefore, American English and Simplified Chinese are my primary working languages, while I was born and raised with Sichuan Dialect as my mother tone and Mandarin Chinese my first language. Besides, I’m currently on track for Spanish, French, and Traditional Chinese (and more...). 
 
