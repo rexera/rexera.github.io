@@ -10,9 +10,9 @@ order: 1
 
 My name is **MA Yiran (马义然)**, and I go by **Yiran Rex Ma** in papers. Call me *Yiran* or *Rex* per your liking :)
 
-I'm with [Peking University & ByteDance Digital Humanities Open Laboratory (PKUDH)](https://pkudh.org) and serving as a visiting senior algorithm engineer in [Qwen Team](https://qwenlm.github.io/), Alibaba Group, working on **Multi-Modal Agents** on cultural heritage. 
+I'm with [Peking University & ByteDance Digital Humanities Open Laboratory (PKUDH)](https://pkudh.org) and serving as a visiting senior algorithm engineer in [Qwen Team](https://qwen.ai/home), Alibaba Group, working on **Multi-Modal Agents** on cultural heritage. 
 
-Coming in September 2026, I'm starting my PhD in _Theoretical and Applied Linguistics_ at Peking University, supervised by [Prof. SU Qi](https://pkudh.org/member/suqi.html). My concentration is on **foundational language models**, as well as computational linguistics, specifically on latent space of artificial neural networks.
+Coming in September 2026, I'm starting my PhD in _Theoretical and Applied Linguistics_ at Peking University, supervised by [Prof. SU Qi](https://pkudh.org/member/suqi.html). My concentration is on **foundation language models**, as well as computational linguistics, specifically on latent space of artificial neural networks.
 
 Currently, I'm graduating from Beijing University of Posts and Telecommunications (BUPT), with a BA in _English, Linguistics and Language Technologies_ and a minor in _Data Science and Big Data Technologies_. From September 2024 to August 2025, I was a research intern in _AI for Humanities/Social Sciences_ subdivisions in [TsinghuaNLP](https://nlp.csai.tsinghua.edu.cn) with [Prof. LIU Zhiyuan](https://nlp.csai.tsinghua.edu.cn/~lzy/). Before all that, I was primarily trained in the humanities with a discovered and ever since ongoing passion for human languages. 
 
