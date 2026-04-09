@@ -10,7 +10,7 @@ order: 1
 
 My name is **MA Yiran (马义然)**, and I go by **Yiran Rex Ma** in papers. Call me *Yiran* or *Rex* per your liking :)
 
-I'm with [Peking University & ByteDance Digital Humanities Open Laboratory (PKUDH)](https://pkudh.org) and serving as a visiting senior algorithm engineer in [Qwen Team](https://qwen.ai/home), Alibaba Group, working on **Multi-Modal Agents** on cultural heritage. 
+I'm with [Peking University & ByteDance Digital Humanities Open Laboratory (PKUDH)](https://pkudh.org) and serving as a visiting algorithm engineer in [Qwen Team](https://qwen.ai/home), Alibaba Group, working on **Multi-Modal Foundation Model** for heritage science. 
 
 Coming in September 2026, I'm starting my PhD in _Theoretical and Applied Linguistics_ at Peking University, supervised by [Prof. SU Qi](https://pkudh.org/member/suqi.html). My concentration is on **foundation language models**, as well as computational linguistics, specifically on latent space of artificial neural networks.
 
@@ -20,19 +20,17 @@ Currently, I'm graduating from Beijing University of Posts and Telecommunication
 
 ## Current Scope
 
-I'm striding towards being an LLM engineer, focusing on **pretraining** and specifically, extra-long sequence training. 
+I'm striding towards becoming an LLM engineer, focusing on **pre-/mid-training** and specifically, extra-long sequence training. 
 
 Delicate, hand-crafted context/harness engineering is, to me, only a temporary workaround, giving everyone a false sense of "control" while tiring us out. 
 
 What I'm truly after is to build **native capabilities into the model to handle long contexts** (e.g., responsible and flexible attention) with minimal performance degradation, to reproduce the scaling law in contexts, and to implement all of this in various configurations and real-world scenarios. 
 
-> Also, SSMs and Diffusion LLMs seem cool. Should we blend them in?
-
 ---
 
 ## Last but not least
 
-I’m something of a language aficionado, ever since I was made to realize this when my education finally took English seriously at the age of 13. Unlike many of my peers in this context, my family is nothing but humble small town dwellers from the rurals, with nothing fancy but unspoken, Asian-style support.
+I’m something of a language aficionado, ever since I was made to realize this when my education finally took English seriously at the age of 13. Unlike many of my peers in this context, my family is nothing but humble small town dwellers from the rurals, with nothing fancy but Asian-style support.
 
 Therefore, American English and Simplified Chinese are my primary working languages, while I was born and raised with Sichuan Dialect as my mother tone and Mandarin Chinese my first language. Besides, I’m currently on track for Spanish, French, and Traditional Chinese (and more...). 
 
