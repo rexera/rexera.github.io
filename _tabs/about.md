@@ -4,9 +4,7 @@ icon: fas fa-info-circle
 order: 1
 ---
 
-## Yiran Rex Ma
-
-<img src="https://github.com/user-attachments/assets/415bc094-d309-4dae-9481-cef35eb00544" width="400" alt="profile">
+## Aloha!
 
 My name is **MA Yiran (马义然)**, and I go by **Yiran Rex Ma** in papers. Call me *Yiran* or *Rex* per your liking :)
 
@@ -30,7 +28,7 @@ What I'm truly after is to build **native capabilities into the model to handle 
 
 ## Last but not least
 
-I’m something of a language aficionado, ever since I was made to realize this when my education finally took English seriously at the age of 13. Unlike many of my peers in this context, my family is nothing but humble small town dwellers from the rurals, with nothing fancy but Asian-style support.
+I’m something of a language aficionado, ever since I was made to realize this when my education finally took English seriously at the age of 13. Unlike many of my peers in this context, my family is humble small town dwellers from the rurals, with nothing fancy but Asian-style support.
 
 Therefore, American English and Simplified Chinese are my primary working languages, while I was born and raised with Sichuan Dialect as my mother tone and Mandarin Chinese my first language. Besides, I’m currently on track for Spanish, French, and Traditional Chinese (and more...). 
 
