@@ -46,9 +46,9 @@ You can also find me at:
 [![@yiran__rex__ma__](https://img.shields.io/badge/Instagram-@yiran__rex__ma__-E4405F?style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/yiran_rex_ma_/)
 [![@yiran__rex__ma__](https://img.shields.io/badge/Medium-@yiran__rex__ma__-000000?style=flat&logo=medium&logoColor=white)](https://medium.com/@yiran_rex_ma_)
 
-[![@馬大凛](https://img.shields.io/badge/WeChat_OA-@馬大凛-07C160?style=flat&logo=wechat&logoColor=white)]()
-[![@馬大凛](https://img.shields.io/badge/Xiaohongshu-@馬大凛-FF2442?style=flat&logo=xiaohongshu&logoColor=white)]()
-[![@馬大凛](https://img.shields.io/badge/Douyin-@馬大凛-000000?style=flat&logo=tiktok&logoColor=white)]()
+[![@馬大凛](https://img.shields.io/badge/WeChat_OA-@馬大凛-07C160?style=flat&logo=wechat&logoColor=white)](https://yiranrexma.monticule.tech)
+[![@馬大凛](https://img.shields.io/badge/Xiaohongshu-@馬大凛-FF2442?style=flat&logo=xiaohongshu&logoColor=white)](https://yiranrexma.monticule.tech)
+[![@馬大凛](https://img.shields.io/badge/Douyin-@馬大凛-000000?style=flat&logo=tiktok&logoColor=white)](https://yiranrexma.monticule.tech)
 
 
 ---
