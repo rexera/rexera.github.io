@@ -49,7 +49,7 @@ You can also find me at:
 [![@馬大凛](https://img.shields.io/badge/WeChat_OA-@馬大凛-07C160?style=flat&logo=wechat&logoColor=white)](https://yiranrexma.monticule.tech)
 [![@馬大凛](https://img.shields.io/badge/Xiaohongshu-@馬大凛-FF2442?style=flat&logo=xiaohongshu&logoColor=white)](https://yiranrexma.monticule.tech)
 [![@馬大凛](https://img.shields.io/badge/Douyin-@馬大凛-000000?style=flat&logo=tiktok&logoColor=white)](https://yiranrexma.monticule.tech)
-
+[![@馬大凛](https://img.shields.io/badge/Bilibili-@馬大凛-FB7299?style=flat&logo=bilibili&logoColor=white)](https://space.bilibili.com/8095381?spm_id_from=333.337.0.0)
 
 ---
 
