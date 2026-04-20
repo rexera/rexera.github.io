@@ -1,10 +1,8 @@
 ---
-title: "[ArXiv] Towards Computational Chinese Paleography"
+title: "Towards Computational Chinese Paleography"
 date: 2026-01-13 11:30:17 +0800
-categories: [Technical, Paleography]
+categories: [Publication]
 ---
-
-## From isolated automation to an integrated research ecosystem
 
 Chinese paleography—the study of ancient Chinese writing—is undergoing a computational turn powered by AI. This position paper asks a high-level question: **what “computational Chinese paleography” is becoming, what the end-to-end methodological pipeline looks like, and where the real bottlenecks and opportunities now are**.
 

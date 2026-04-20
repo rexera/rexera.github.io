@@ -1,7 +1,7 @@
 ---
 title: "Implementation of LLM-Based Multi-Agent Systems: A Toy Survey"
-date: 2025-04-13
-categories: [Technical, MAS]
+date: 2025-04-13 21:35:19 +0800
+categories: [Survey]
 ---
 
 > By no means is the notion of "Agent", which has long been discussed in AI research since early works like *Society of Minds* by Marvin Minsky, novel or peculiar to present days, let alone when extended to multi-agent systems (MAS). Its implementation based on LLMs, however, constitutes the genuine issue posed ahead of researchers nowadays.

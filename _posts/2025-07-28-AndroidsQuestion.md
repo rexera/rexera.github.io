@@ -1,10 +1,8 @@
 ---
-title: "[ACL 2025] Do Androids Question Electric Sheep? A Multi-Agent Cognitive Simulation of Philosophical Reflection on Hybrid Table Reasoning"
-date: 2025-07-28
+title: "Do Androids Question Electric Sheep? A Multi-Agent Simulation of Philosophical Reflection"
+date: 2025-07-28 20:58:21 +0800
 categories: [Publication]
 ---
-
-## Do Androids Overthink Electric Sheep?
 
 Turns out, AI might be just like us when it comes to thinking too much. 
 

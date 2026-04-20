@@ -1,6 +1,6 @@
 ---
-title: "[ArXiv] Contrastive Analysis of Constituent Order Preferences Within Adverbial Roles in English and Chinese News: A Large-Language-Model-Driven Approach"
-date: 2025-04-23
+title: "Constituent Order Differences in Adverbials, in English and Chinese News"
+date: 2025-04-23 11:35:24 +0800
 categories: [Publication]
 ---
 
