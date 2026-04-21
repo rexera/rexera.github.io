@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Noto+Serif+SC:wght@400;500;600;700&display=swap');
+
+:root {
+  --serif-font-stack: "Noto Serif", "Noto Serif SC", "Source Han Serif SC", "Georgia", "Songti SC", "STZhongsong", "Times New Roman", serif;
+}
+
+html {
+  font-size: 93%;
+}
+
+body {
+  font-family: var(--serif-font-stack);
+  font-synthesis: weight style;
+  line-height: 1.75;
+  letter-spacing: 0.015em;
+  color: #333333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header .post-desc,
+#search-results a,
+#sidebar .site-title,
+#topbar-title,
+.pagination,
+#notification .toast-body,
+#archives .date.day,
+.tag span,
+kbd {
+  font-family: var(--serif-font-stack) !important;
+}

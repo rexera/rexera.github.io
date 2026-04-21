@@ -6,13 +6,19 @@ order: 1
 
 ## Aloha!
 
-My name is **MA Yiran (马义然)**, and I go by **Yiran Rex Ma** in papers. Call me *Yiran* or *Rex* per your liking :)
+My name is **马义然 (MA Yiran)**, and I go by **Yiran Rex Ma** in papers. 
+
+Call me *Yiran* or *Rex* per your liking :)
 
 I'm with [Peking University & ByteDance Digital Humanities Open Laboratory (PKUDH)](https://pkudh.org) and serving as a visiting algorithm engineer in [Qwen Team](https://qwen.ai/home), Alibaba Group, working on **Multi-Modal Foundation Model** for heritage science. 
 
-Coming in September 2026, I'm starting my PhD in _Theoretical and Applied Linguistics_ at Peking University, supervised by [Prof. SU Qi](https://pkudh.org/member/suqi.html). My concentration is on **foundation language models**, as well as computational linguistics, specifically on latent space of artificial neural networks.
+Coming in September 2026, I'm starting my PhD in _Theoretical and Applied Linguistics_ at Peking University, advised by [Prof. SU Qi](https://pkudh.org/member/suqi.html). My concentration is on **foundation language models**, as well as computational linguistics, specifically on latent space and multi-modal representation learning.
 
-Currently, I'm graduating from Beijing University of Posts and Telecommunications (BUPT), with a BA in _English, Linguistics and Language Technologies_ and a minor in _Data Science and Big Data Technologies_. From September 2024 to August 2025, I was a research intern in _AI for Humanities/Social Sciences_ subdivisions in [TsinghuaNLP](https://nlp.csai.tsinghua.edu.cn) with [Prof. LIU Zhiyuan](https://nlp.csai.tsinghua.edu.cn/~lzy/). Before all that, I was primarily trained in the humanities with a discovered and ever since ongoing passion for human languages. 
+Currently, I'm graduating from Beijing University of Posts and Telecommunications (BUPT), with a BA in _English, Linguistics and Language Technologies_ and a minor in _Data Science and Big Data Technologies_. 
+
+From September 2024 to August 2025, I was a research intern in _AI for Humanities & Social Sciences_ subdivision in [TsinghuaNLP](https://nlp.csai.tsinghua.edu.cn) with [Prof. LIU Zhiyuan](https://nlp.csai.tsinghua.edu.cn/~lzy/). 
+
+Before all that, I was primarily trained in the humanities with a discovered and ever since ongoing passion for human languages. 
 
 ---
 
@@ -22,7 +28,7 @@ I'm striding towards becoming an LLM engineer, focusing on **continual learning*
 
 Data quality defines the performance upper bound of LLMs. Both pre-training and reinforcement learning rely heavily on data curation, synthesis, mining and targeted supplementation. My work aims to establish a data flywheel: iterative model generation, data filtering and continued training, which quickly adapt the base model to diverse domains and achieves meaningful alignment with human preferences.
 
-I founded [Monticule Tech](https://monticule.tech) together with [my partner](https://linjhs.com) with the same vision, seeking possibilities to scale up the solution.
+[My partner](https://linjhs.com) and I founded [Monticule Tech](https://monticule.tech) with the same vision, seeking possibilities to scale up the solution so that the intelligence core can serve diverse real-world applications, pain-free.
 
 ---
 
@@ -31,6 +37,8 @@ I founded [Monticule Tech](https://monticule.tech) together with [my partner](ht
 I love expressing myself, in all forms.
 
 I’m something of a language aficionado, ever since I was made to realize this when my education finally took English seriously at the age of 13. Unlike many of my peers in this context, my family is humble small town dwellers from the rurals, with nothing fancy but Asian-style support.
+
+> They made *Yiran* possible. And I build *Rex* into who he is.
 
 Therefore, American English and Simplified Chinese are my primary working languages, while I was born and raised with Sichuan Dialect as my mother tone and Mandarin Chinese my first language. Besides, I’m currently on track for Spanish, French, and Traditional Chinese (and more...). 
 
@@ -53,4 +61,8 @@ You can also find me at:
 
 ---
 
-This is an academic/personal profile/blog, where I update news and whimsical thoughts. Enjoy!
+Enjoy exploring!
+
+<div style="margin-top: 50px; text-align: center;">
+  <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=aH4cvO3EM86kXqdk5cb7MaAdu7L2ACzNNuIqaqiJJc4&cl=ffffff&w=a"></script>
+</div>
