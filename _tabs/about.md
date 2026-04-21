@@ -12,11 +12,11 @@ Call me *Yiran* or *Rex* per your liking :)
 
 I'm with [Peking University & ByteDance Digital Humanities Open Laboratory (PKUDH)](https://pkudh.org) and serving as a visiting algorithm engineer in [Qwen Team](https://qwen.ai/home), Alibaba Group, working on **Multi-Modal Foundation Model** for heritage science. 
 
-Coming in September 2026, I'm starting my PhD in _Theoretical and Applied Linguistics_ at Peking University, advised by [Prof. SU Qi](https://pkudh.org/member/suqi.html). My concentration is on **foundation language models**, as well as computational linguistics, specifically on latent space and multi-modal representation learning.
+Coming in September 2026, I'm starting my PhD in _Theoretical and Applied Linguistics_ at Peking University, advised by [Prof. Qi Su](https://pkudh.org/member/suqi.html). My concentration is **foundation language models**, as well as computational linguistics, specifically on latent space and multi-modal representation learning.
 
 Currently, I'm graduating from Beijing University of Posts and Telecommunications (BUPT), with a BA in _English, Linguistics and Language Technologies_ and a minor in _Data Science and Big Data Technologies_. 
 
-From September 2024 to August 2025, I was a research intern in _AI for Humanities & Social Sciences_ subdivision in [TsinghuaNLP](https://nlp.csai.tsinghua.edu.cn) with [Prof. LIU Zhiyuan](https://nlp.csai.tsinghua.edu.cn/~lzy/). 
+From September 2024 to August 2025, I was a research intern in _AI for Humanities & Social Sciences_ subdivision in [TsinghuaNLP](https://nlp.csai.tsinghua.edu.cn) with [Prof. Zhiyuan Liu](https://nlp.csai.tsinghua.edu.cn/~lzy/). 
 
 Before all that, I was primarily trained in the humanities with a discovered and ever since ongoing passion for human languages. 
 
@@ -54,15 +54,13 @@ You can also find me at:
 [![@yiran__rex__ma__](https://img.shields.io/badge/Instagram-@yiran__rex__ma__-E4405F?style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/yiran_rex_ma_/)
 [![@yiran__rex__ma__](https://img.shields.io/badge/Medium-@yiran__rex__ma__-000000?style=flat&logo=medium&logoColor=white)](https://medium.com/@yiran_rex_ma_)
 
-[![@馬大凛](https://img.shields.io/badge/WeChat_OA-@馬大凛-07C160?style=flat&logo=wechat&logoColor=white)](https://yiranrexma.monticule.tech)
+`WeChat OA/Xiaohongshu/Douyin/Bilibili: @馬大凛`{: .filepath}
+
+<!-- [![@馬大凛](https://img.shields.io/badge/WeChat_OA-@馬大凛-07C160?style=flat&logo=wechat&logoColor=white)](https://yiranrexma.monticule.tech)
 [![@馬大凛](https://img.shields.io/badge/Xiaohongshu-@馬大凛-FF2442?style=flat&logo=xiaohongshu&logoColor=white)](https://yiranrexma.monticule.tech)
 [![@馬大凛](https://img.shields.io/badge/Douyin-@馬大凛-000000?style=flat&logo=tiktok&logoColor=white)](https://yiranrexma.monticule.tech)
-[![@馬大凛](https://img.shields.io/badge/Bilibili-@馬大凛-FB7299?style=flat&logo=bilibili&logoColor=white)](https://space.bilibili.com/8095381?spm_id_from=333.337.0.0)
+[![@馬大凛](https://img.shields.io/badge/Bilibili-@馬大凛-FB7299?style=flat&logo=bilibili&logoColor=white)](https://space.bilibili.com/8095381?spm_id_from=333.337.0.0) -->
 
 ---
 
 Enjoy exploring!
-
-<div style="margin-top: 50px; text-align: center;">
-  <script type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?d=aH4cvO3EM86kXqdk5cb7MaAdu7L2ACzNNuIqaqiJJc4&cl=ffffff&w=a"></script>
-</div>
