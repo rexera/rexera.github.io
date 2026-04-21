@@ -64,5 +64,5 @@ You can also find me at:
 Enjoy exploring!
 
 <div style="margin-top: 50px; text-align: center;">
-  <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=aH4cvO3EM86kXqdk5cb7MaAdu7L2ACzNNuIqaqiJJc4&cl=ffffff&w=a"></script>
+  <script type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?d=aH4cvO3EM86kXqdk5cb7MaAdu7L2ACzNNuIqaqiJJc4&cl=ffffff&w=a"></script>
 </div>
