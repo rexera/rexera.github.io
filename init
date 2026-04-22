@@ -1,0 +1,86 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+POSTS_DIR="$SCRIPT_DIR/_posts"
+
+if [[ ! -d "$POSTS_DIR" ]]; then
+  echo "Error: _posts directory not found in $SCRIPT_DIR"
+  exit 1
+fi
+
+trim() {
+  local input="$1"
+  input="${input#"${input%%[![:space:]]*}"}"
+  input="${input%"${input##*[![:space:]]}"}"
+  printf '%s' "$input"
+}
+
+slugify() {
+  local input="$1"
+  local slug
+
+  slug="$(printf '%s' "$input" | tr '[:upper:]' '[:lower:]' | sed -E 's/[^a-z0-9]+/-/g; s/^-+//; s/-+$//; s/-+/-/g')"
+
+  if [[ -z "$slug" ]]; then
+    slug="post-$(date +%H%M%S)"
+  fi
+
+  printf '%s' "$slug"
+}
+
+escape_quotes() {
+  local input="$1"
+  printf '%s' "$input" | sed 's/"/\\"/g'
+}
+
+echo "New post initializer"
+echo ""
+
+while true; do
+  read -r -p "Post title: " raw_title
+  title="$(trim "$raw_title")"
+
+  if [[ -z "$title" ]]; then
+    echo "Title cannot be empty. Please try again."
+    continue
+  fi
+
+  break
+done
+
+read -r -p "Category (default: Thoughts): " raw_category
+category="$(trim "$raw_category")"
+if [[ -z "$category" ]]; then
+  category="Thoughts"
+fi
+
+date_prefix="$(date +%Y-%m-%d)"
+date_full="$(date '+%Y-%m-%d %H:%M:%S %z')"
+slug="$(slugify "$title")"
+
+file_name="${date_prefix}-${slug}.md"
+file_path="$POSTS_DIR/$file_name"
+
+counter=2
+while [[ -e "$file_path" ]]; do
+  file_name="${date_prefix}-${slug}-${counter}.md"
+  file_path="$POSTS_DIR/$file_name"
+  counter=$((counter + 1))
+done
+
+escaped_title="$(escape_quotes "$title")"
+
+cat > "$file_path" <<EOF
+---
+title: "$escaped_title"
+date: $date_full
+categories: [$category]
+---
+
+EOF
+
+echo ""
+echo "Created: $file_path"
+echo "Done."

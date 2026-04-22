@@ -44,22 +44,18 @@ Therefore, American English and Simplified Chinese are my primary working langua
 
 And if we think of language (both natural and programming) as a _human-driven probability system_, I also hope to establish proficiency bestriding among major languages, to become a (self-proclaimed) full-stack polyglot :)
 
-Oh, almost forgot, I also produce my own music under the name *RexEra*, experimenting with all sorts of elements while documenting my life. 
-
-[![RexEra](https://img.shields.io/badge/Spotify-RexEra-1ED760?style=flat&logo=spotify&logoColor=white)](https://open.spotify.com/artist/6Em2PWIaOI9lIZ9lqlAePw)
-[![RexEra](https://img.shields.io/badge/Apple_Music-RexEra-FF4E6B?style=flat&logo=apple-music&logoColor=white)](https://music.apple.com/us/artist/rexera/1820862938)
+Oh, almost forgot, I also produce my own music under the name [RexEra](https://music.apple.com/us/artist/rexera/1820862938), experimenting with all sorts of elements while documenting my life. 
 
 You can also find me at:
 
-[![@yiran__rex__ma__](https://img.shields.io/badge/Instagram-@yiran__rex__ma__-E4405F?style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/yiran_rex_ma_/)
-[![@yiran__rex__ma__](https://img.shields.io/badge/Medium-@yiran__rex__ma__-000000?style=flat&logo=medium&logoColor=white)](https://medium.com/@yiran_rex_ma_)
+<!-- [![@yiran__rex__ma__](https://img.shields.io/badge/Instagram-@yiran__rex__ma__-E4405F?style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/yiran_rex_ma_/)
+[![@yiran__rex__ma__](https://img.shields.io/badge/Medium-@yiran__rex__ma__-000000?style=flat&logo=medium&logoColor=white)](https://medium.com/@yiran_rex_ma_) -->
+
+`Instagram: `{: .filepath}[`@yiran_rex_ma_`{: .filepath}](https://www.instagram.com/yiran_rex_ma_/)
+
+`Medium: `{: .filepath}[`@yiran_rex_ma_`{: .filepath}](https://medium.com/@yiran_rex_ma_)
 
 `WeChat OA/Xiaohongshu/Douyin/Bilibili: @馬大凛`{: .filepath}
-
-<!-- [![@馬大凛](https://img.shields.io/badge/WeChat_OA-@馬大凛-07C160?style=flat&logo=wechat&logoColor=white)](https://yiranrexma.monticule.tech)
-[![@馬大凛](https://img.shields.io/badge/Xiaohongshu-@馬大凛-FF2442?style=flat&logo=xiaohongshu&logoColor=white)](https://yiranrexma.monticule.tech)
-[![@馬大凛](https://img.shields.io/badge/Douyin-@馬大凛-000000?style=flat&logo=tiktok&logoColor=white)](https://yiranrexma.monticule.tech)
-[![@馬大凛](https://img.shields.io/badge/Bilibili-@馬大凛-FB7299?style=flat&logo=bilibili&logoColor=white)](https://space.bilibili.com/8095381?spm_id_from=333.337.0.0) -->
 
 ---
 
