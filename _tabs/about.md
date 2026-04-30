@@ -6,6 +6,10 @@ order: 1
 
 ## Aloha!
 
+
+<img width="400" alt="Front" src="/assets/img/front.webp">
+
+
 My name is **马义然 (MA Yiran)**, and I go by **Yiran Rex Ma** in papers. 
 
 Call me *Yiran* or *Rex* per your liking :)
@@ -53,3 +57,6 @@ You can also find me at:
 `Medium: `{: .filepath}[`@yiran_rex_ma_`{: .filepath}](https://medium.com/@yiran_rex_ma_)
 
 `WeChat OA/Xiaohongshu/Douyin/Bilibili: @馬大凛`{: .filepath}
+
+
+<img src="/assets/img/back.webp" alt="Back" width="400">
