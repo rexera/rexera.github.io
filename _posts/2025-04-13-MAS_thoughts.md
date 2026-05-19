@@ -185,7 +185,7 @@ print("Chat response:", chat_response)
 - Competitive Agents: Agents have conflicting objectives and compete against each other.
 - Team-Based Competition: Teams of agents compete against each other.
 
-<img width="943" alt="image" src="https://github.com/user-attachments/assets/712f8605-8eef-46c5-b58e-e74cc46bbbd1" />
+<img width="943" alt="image" src="/assets/img/posts/mas-thoughts/712f8605-8eef-46c5-b58e-e74cc46bbbd1.webp" />
 
 
 2. Functional Purposes
@@ -201,7 +201,7 @@ print("Chat response:", chat_response)
     - Role-Playing Systems: Agents assume specific personas or roles.
     - Environment-Interaction Systems (Model-Based): Agents interact dynamically with their surroundings and adapt accordingly.
   
-   <img width="943" alt="image" src="https://github.com/user-attachments/assets/3b25b182-24e5-4f84-b6ca-a23796bf3fc8" />
+  <img width="943" alt="image" src="/assets/img/posts/mas-thoughts/3b25b182-24e5-4f84-b6ca-a23796bf3fc8.webp" />
 
 
     b. Agent Topology
@@ -338,7 +338,7 @@ This concept suggests that **models might better optimize prompts for models**, 
   - Apply a fixed **inductive bias**: **"Shorter is better"**.
   - Train the model using DPO to prefer more concise interactions.
 
-<img width="943" alt="image" src="https://github.com/user-attachments/assets/6ed473e5-c49e-4b35-b1df-846d48d1826f" />
+<img width="943" alt="image" src="/assets/img/posts/mas-thoughts/6ed473e5-c49e-4b35-b1df-846d48d1826f.webp" />
 
 
  Limitations
@@ -363,7 +363,7 @@ The effectiveness of summarization remains uncertain, as it may lose critical nu
   - **Adversarial defense**: Low-rank design enhances robustness by filtering malicious information.
 - **Implementation**: Plug-and-play integration with frameworks like AutoGen and GPTSwarm, maintaining directed acyclic graph structure through topological sorting.
 
-<img width="900" alt="image" src="https://github.com/user-attachments/assets/31644e69-9120-4406-ab50-993a39803006" />
+<img width="900" alt="image" src="/assets/img/posts/mas-thoughts/31644e69-9120-4406-ab50-993a39803006.webp" />
 
 
 **Results**:
@@ -384,7 +384,7 @@ The effectiveness of summarization remains uncertain, as it may lose critical nu
   - Example: Werewolf Game
     - Win rates, survival time, and other game-related performance indicators provide objective benchmarks.
     - ChatDev (AI-driven software development)
-      <img width="714" alt="image" src="https://github.com/user-attachments/assets/3f6b33fa-2f54-4cd9-8b81-097aa032fdf9" />
+      <img width="714" alt="image" src="/assets/img/posts/mas-thoughts/3f6b33fa-2f54-4cd9-8b81-097aa032fdf9.webp" />
 
 #### b. Downstream Performance Improvement
   - Example: Agent Hospital  
@@ -396,7 +396,7 @@ The effectiveness of summarization remains uncertain, as it may lose critical nu
     - QA in general
     - Reference-Based: Translation... (translation companies, benchmark datasets; BLEU, ROUGE, F1...)
     - Wu, M., Yuan, Y., Haffari, G., & Wang, L. (2024). (Perhaps) Beyond Human Translation: Harnessing Multi-Agent Collaboration for Translating Ultra-Long Literary Texts (Version 1). arXiv. https://doi.org/10.48550/ARXIV.2405.11804
-    <img width="679" alt="image" src="https://github.com/user-attachments/assets/4c7130a4-34f2-4cc1-abb3-6e6c3b7f89ac" />
+    <img width="679" alt="image" src="/assets/img/posts/mas-thoughts/4c7130a4-34f2-4cc1-abb3-6e6c3b7f89ac.webp" />
 
 ### 2. Human-Centric Evaluation
 
@@ -422,19 +422,19 @@ The effectiveness of summarization remains uncertain, as it may lose critical nu
   - **Eyeballing** Emergent Behaviors + Small-Scale Data Analysis  
     - Example: Werewolf Game
     - Evaluates unexpected but meaningful behaviors that arise in multi-agent interactions.
-      <img width="942" alt="image" src="https://github.com/user-attachments/assets/a06845ef-1ca1-4b52-a4b5-e178bd51fd9e" />
+      <img width="942" alt="image" src="/assets/img/posts/mas-thoughts/a06845ef-1ca1-4b52-a4b5-e178bd51fd9e.webp" />
 
 ### 3. Rubrics
 
   *Example: Legal Reasoning Rubric for Multi-Agent Legal Analysis System*
 
-  | Dimension | Description | Scoring Criteria (1-5) |
-  |-----------|-------------|------------------------|
-  | Legal Accuracy | Correctness of legal principles and precedents cited | 1: Major errors in law<br>3: Minor inaccuracies<br>5: Completely accurate legal analysis |
-  | Argument Quality | Logical structure and persuasiveness of legal arguments | 1: Incoherent reasoning<br>3: Basic logical structure<br>5: Compelling, well-structured arguments |
-  | Counter-Argument Anticipation | Ability to identify and address opposing viewpoints | 1: No counter-arguments considered<br>3: Basic counter-arguments addressed<br>5: Comprehensive treatment of opposing positions |
-  | Evidence Integration | Effective use of case facts and evidence | 1: Ignores key evidence<br>3: Incorporates main evidence<br>5: Sophisticated integration of all relevant evidence |
-  | Practical Applicability | Usefulness of analysis for real-world legal decision-making | 1: Purely theoretical<br>3: Moderately practical<br>5: Directly applicable to case resolution |
+  | Dimension                     | Description                                                 | Scoring Criteria (1-5)                                                                                                         |
+  | ----------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+  | Legal Accuracy                | Correctness of legal principles and precedents cited        | 1: Major errors in law<br>3: Minor inaccuracies<br>5: Completely accurate legal analysis                                       |
+  | Argument Quality              | Logical structure and persuasiveness of legal arguments     | 1: Incoherent reasoning<br>3: Basic logical structure<br>5: Compelling, well-structured arguments                              |
+  | Counter-Argument Anticipation | Ability to identify and address opposing viewpoints         | 1: No counter-arguments considered<br>3: Basic counter-arguments addressed<br>5: Comprehensive treatment of opposing positions |
+  | Evidence Integration          | Effective use of case facts and evidence                    | 1: Ignores key evidence<br>3: Incorporates main evidence<br>5: Sophisticated integration of all relevant evidence              |
+  | Practical Applicability       | Usefulness of analysis for real-world legal decision-making | 1: Purely theoretical<br>3: Moderately practical<br>5: Directly applicable to case resolution                                  |
 
 
 
@@ -550,7 +550,7 @@ The effectiveness of summarization remains uncertain, as it may lose critical nu
   - Inefficient task decomposition creating dependency conflicts
   - Inadequate **verification mechanisms** (20% of failures)
 
-<img width="1123" alt="image" src="https://github.com/user-attachments/assets/2bf0da52-96f7-4ba7-b725-19ae2182fa0b" />
+<img width="1123" alt="image" src="/assets/img/posts/mas-thoughts/2bf0da52-96f7-4ba7-b725-19ae2182fa0b.webp" />
 
 
 ### 2. Collaboration Deficiencies
@@ -560,7 +560,7 @@ The effectiveness of summarization remains uncertain, as it may lose critical nu
   - Missing incentive structures causing goal misalignment
   - Insufficient utilization of agent heterogeneity
 
-<img width="1070" alt="image" src="https://github.com/user-attachments/assets/9bf82ccd-4b66-4f1d-8d12-e4b22d6baea7" />
+<img width="1070" alt="image" src="/assets/img/posts/mas-thoughts/9bf82ccd-4b66-4f1d-8d12-e4b22d6baea7.webp" />
 
 
 ### 3. Evaluation Shortcomings
