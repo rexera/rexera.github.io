@@ -16,7 +16,7 @@ Call me *Yiran* or *Rex* per your liking :)
 
 I'm with [Peking University & ByteDance Digital Humanities Open Lab (PKUDH)](https://pkudh.org) and serving as a visiting algorithm engineer in [Qwen Team](https://qwen.ai/home), Alibaba Group, working on **Multi-Modal Foundation Model** for heritage science. 
 
-Coming in September 2026, I'm starting my PhD in _Theoretical and Applied Linguistics_ at Peking University, advised by [Prof. Qi Su](https://pkudh.org/member/suqi.html), with a concentration on **foundation language models** and computational linguistics, specifically on representation learning across modalities.
+Coming in September 2026, I'm starting my PhD in _Theoretical and Applied Linguistics_ at Peking University, advised by [Prof. Qi Su](https://pkudh.org/member/suqi.html), with a concentration on **foundation language models** and computational linguistics, specifically on representation across modalities.
 
 Currently, I'm graduating from Beijing University of Posts and Telecommunications (BUPT), with a BA in _English, Linguistics and Language Technologies_ and a minor in _Data Science and Big Data Technologies_. 
 
@@ -28,11 +28,11 @@ Before all that, I was primarily born and raised in the humanities with a discov
 
 ## Current focus
 
-I'm striding towards becoming an LLM engineer, focusing on **continual learning** and specifically, lightweight and personalized models, which swiftly adapt the foundation to diverse domains and achieves meaningful alignment with inherent human preferences beyond verifiable rewards.
+I'm striding towards becoming an LLM engineer, focusing on **continual learning** and specifically, **lightweight and personalized** models, which swiftly adapt the foundation to diverse domains and achieves meaningful alignment with inherent human preferences beyond verifiable rewards.
 
 [My partner](https://github.com/LinJHS) and I founded [Monticule](https://monticule.tech) with the same vision, seeking possibilities to scale up the solution in diverse real-world applications, pain-free.
 
-<img width="120" alt="Front" src="/assets/img/monticule.webp">
+<img width="200" alt="Front" src="/assets/img/monticule.webp">
 
 ---
 
