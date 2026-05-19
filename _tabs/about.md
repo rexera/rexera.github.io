@@ -20,7 +20,7 @@ Coming in September 2026, I'm starting my PhD in _Theoretical and Applied Lingui
 
 Currently, I'm graduating from Beijing University of Posts and Telecommunications (BUPT), with a BA in _English, Linguistics and Language Technologies_ and a minor in _Data Science and Big Data Technologies_. 
 
-From September 2024 to August 2025, I was a research intern in _AI for Humanities & Social Sciences_ subdivision in [TsinghuaNLP](https://nlp.csai.tsinghua.edu.cn) with [Prof. Zhiyuan Liu](https://nlp.csai.tsinghua.edu.cn/~lzy/) thanks to kind mentorship from [Dr. Yuxiao Ye](https://yeyuxiao.github.io/) and [Prof. Shuangjie Li](https://www.ctwx.tsinghua.edu.cn/info/1054/3229.htm). 
+From September 2024 to August 2025, I was a research intern in _AI for Humanities & Social Science_ subdivision in [TsinghuaNLP](https://nlp.csai.tsinghua.edu.cn) with [Prof. Zhiyuan Liu](https://nlp.csai.tsinghua.edu.cn/~lzy/) thanks to kind mentorship from [Dr. Yuxiao Ye](https://yeyuxiao.github.io/) and [Prof. Shuangjie Li](https://www.ctwx.tsinghua.edu.cn/info/1054/3229.htm). 
 
 Before all that, I was primarily born and raised in the humanities with a discovered and ever since ongoing passion for human languages. 
 
@@ -28,11 +28,11 @@ Before all that, I was primarily born and raised in the humanities with a discov
 
 ## Current focus
 
-I'm striding towards becoming an LLM engineer, focusing on **continual learning** and specifically, data engineering for domain alignment. 
+I'm striding towards becoming an LLM engineer, focusing on **continual learning** and specifically, lightweight and personalized models, which swiftly adapt the foundation to diverse domains and achieves meaningful alignment with inherent human preferences beyond verifiable rewards.
 
-Data quality defines the performance upper bound of LLMs. My work aims to establish a data flywheel: iterative model generation, data filtering, evaluation and continual training, which quickly adapt the foundation to diverse domains and achieves meaningful alignment with human preferences.
+[My partner](https://github.com/LinJHS) and I founded [Monticule](https://monticule.tech) with the same vision, seeking possibilities to scale up the solution in diverse real-world applications, pain-free.
 
-[My partner](https://github.com/LinJHS) and I founded [Monticule Tech](https://monticule.tech) with the same vision, seeking possibilities to scale up the solution in diverse real-world applications, pain-free.
+<img width="120" alt="Front" src="/assets/img/monticule.webp">
 
 ---
 
@@ -44,7 +44,7 @@ I’m something of a language aficionado, ever since I was made to realize this 
 
 > They made *Yiran* possible. And I build *Rex* into who he is.
 
-Therefore, American English and Simplified Chinese are my primary working languages, while I was marinated with Sichuan Dialect as my mother tone. Besides, I’m currently on track for Spanish, French, Hokkien, Cantonese, and more... 
+Therefore, American English and Simplified Chinese are my working languages, while I was marinated with Sichuan Dialect as my mother tone. Besides, I’m currently on track for Spanish, French, Hokkien, Cantonese, and more... 
 
 And I do think of language as a _human-driven probability system_, so I hope to establish proficiency in major programming languages, to become a full-stack polyglot :)
 
