@@ -14,13 +14,11 @@ My name is **马义然 (MA Yiran)**, and I go by **Yiran Rex Ma** in papers.
 
 Call me *Yiran* or *Rex* per your liking :)
 
-I'm with [Peking University & ByteDance Digital Humanities Open Lab (PKUDH)](https://pkudh.org) and serving as a visiting algorithm engineer in [Qwen Team](https://qwen.ai/home), Alibaba Group, working on **Multi-Modal Foundation Model** for heritage science. 
+I'm with [Peking University & ByteDance Digital Humanities Open Lab (PKUDH)](https://pkudh.org), and pursuing PhD in _Theoretical and Applied Linguistics_ at Peking University, advised by [Prof. Qi Su](https://pkudh.org/member/suqi.html), with a concentration on **foundation language models**, on all fronts and in various forms.
 
-Coming in September 2026, I'm starting my PhD in _Theoretical and Applied Linguistics_ at Peking University, advised by [Prof. Qi Su](https://pkudh.org/member/suqi.html), with a concentration on **foundation language models** and computational linguistics, specifically on representation across modalities.
+I obtained my BA in _English, Linguistics and Language Technologies_ from Beijing University of Posts and Telecommunications (BUPT), with a minor in _Data Science and Big Data Technologies_. 
 
-Currently, I'm graduating from Beijing University of Posts and Telecommunications (BUPT), with a BA in _English, Linguistics and Language Technologies_ and a minor in _Data Science and Big Data Technologies_. 
-
-From September 2024 to August 2025, I was a research intern in _AI for Humanities & Social Science_ subdivision in [TsinghuaNLP](https://nlp.csai.tsinghua.edu.cn) with [Prof. Zhiyuan Liu](https://nlp.csai.tsinghua.edu.cn/~lzy/) thanks to kind mentorship from [Dr. Yuxiao Ye](https://yeyuxiao.github.io/) and [Prof. Shuangjie Li](https://www.ctwx.tsinghua.edu.cn/info/1054/3229.htm). 
+My recent roles include a visiting algorithm engineer in [Qwen Team](https://qwen.ai/home), Alibaba Group (_foundation model for heritage science_), and a research internship at [TsinghuaNLP](https://nlp.csai.tsinghua.edu.cn) (_AI for humanities & social science_) with [Prof. Zhiyuan Liu](https://nlp.csai.tsinghua.edu.cn/~lzy/), thanks to kind mentorship from [Dr. Yuxiao Ye](https://yeyuxiao.github.io/) and [Prof. Shuangjie Li](https://www.ctwx.tsinghua.edu.cn/info/1054/3229.htm).
 
 Before all that, I was primarily born and raised in the humanities with a discovered and ever since ongoing passion for human languages. 
 
@@ -50,14 +48,12 @@ And I do think of language as a _human-driven probability system_, so I hope to 
 
 Oh, almost forgot, I also produce my own music under the name [RexEra](https://music.apple.com/us/artist/rexera/1820862938), experimenting with all sorts of elements while documenting my life. 
 
-You'll possibly catch me jogging, hiking, touching grass, or dacing at a hyperpop live, but you can also find me at:
+You'll possibly catch me jogging, hiking, touching grass, or dacing at a hyperpop live, come find me at:
 
 `Instagram: `{: .filepath}[`@yiran_rex_ma_`{: .filepath}](https://www.instagram.com/yiran_rex_ma_/)
-
-`Medium: `{: .filepath}[`@yiran_rex_ma_`{: .filepath}](https://medium.com/@yiran_rex_ma_)
 
 `WeChat OA/Xiaohongshu/Douyin/Bilibili: @馬大凛`{: .filepath}
 
 `(Personal) WeChat: rex0407317`{: .filepath}
 
-<img src="/assets/img/back.webp" alt="Back" width="400">
+`Medium: `{: .filepath}[`@yiran_rex_ma_`{: .filepath}](https://medium.com/@yiran_rex_ma_)
