@@ -14,11 +14,11 @@ My name is **马义然 (MA Yiran)**, and I go by **Yiran Rex Ma** in papers.
 
 Call me *Yiran* or *Rex* per your liking :)
 
-I'm with [Peking University & ByteDance Digital Humanities Open Lab (PKUDH)](https://pkudh.org), and pursuing PhD in _Theoretical and Applied Linguistics_ at Peking University, advised by [Prof. Qi Su](https://pkudh.org/member/suqi.html), with a concentration on **foundation language models**, on all fronts and in various forms.
+I'm with [Peking University & ByteDance Digital Humanities Open Lab (PKUDH)](https://pkudh.org) at [Institute for Artificial Intelligence, Peking University](https://www.ai.pku.edu.cn/index.htm), and pursuing PhD in _Theoretical and Applied Linguistics_, advised by [Prof. Qi Su](https://www.ai.pku.edu.cn/info/1386/2122.htm), with a concentration on **foundation language models**, on all fronts and in various forms.
 
 I obtained my BA in _English, Linguistics and Language Technologies_ from Beijing University of Posts and Telecommunications (BUPT), with a minor in _Data Science and Big Data Technologies_. 
 
-My recent roles include a visiting algorithm engineer in [Qwen Team](https://qwen.ai/home), Alibaba Group (_foundation model for heritage science_), and a research internship at [TsinghuaNLP](https://nlp.csai.tsinghua.edu.cn) (_AI for humanities & social science_) with [Prof. Zhiyuan Liu](https://nlp.csai.tsinghua.edu.cn/~lzy/), thanks to kind mentorship from [Dr. Yuxiao Ye](https://yeyuxiao.github.io/) and [Prof. Shuangjie Li](https://www.ctwx.tsinghua.edu.cn/info/1054/3229.htm).
+My recent roles include a visiting algorithm engineer in [Qwen Team](https://qwen.ai/home), Alibaba Group _(foundation model for heritage science)_, and a research internship at [TsinghuaNLP](https://nlp.csai.tsinghua.edu.cn) _(AI for humanities & social science)_ with [Prof. Zhiyuan Liu](https://nlp.csai.tsinghua.edu.cn/~lzy/).
 
 Before all that, I was primarily born and raised in the humanities with a discovered and ever since ongoing passion for human languages. 
 
@@ -38,7 +38,7 @@ I'm striding towards becoming an LLM engineer, focusing on **continual learning*
 
 I love expressing myself, in all forms.
 
-I’m something of a language aficionado, ever since I was made to realize this when my education finally took English seriously at the age of 13. Unlike many of my peers in this context, my family is humble small town dwellers from the rurals, with nothing fancy but Asian-style support.
+I’m something of a language aficionado, ever since I was made to realize this when my education finally took English seriously at the age of 13. Unlike many of my peers in this context, my family is just humble small-town-dwellers from the rurals, with nothing fancy but Asian-style support.
 
 > They made *Yiran* possible. And I build *Rex* into who he is.
 
